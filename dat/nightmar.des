@@ -1,0 +1,1203 @@
+#	SCCS Id: @(#)nightmar.des	0.0.7	2002/03/13
+#	$Id: nightmar.des,v 1.6.2.1 2005-12-03 16:11:06 j_ali Exp $
+# NetHack may be freely redistributed.  See license for details.
+#
+# Nightmare's Nightmare World
+MAZE:"night-1",' '
+FLAGS:noteleport,hardfloor,nommap,shortsighted,spooky
+GEOMETRY:center,center
+MAP
+  T.    T.T                    CC     CC    #######H#H                      
+ T.... ......   ...T  LLL    CCCCCC  CCCC   #       H   #################H. 
+   .T...TTTT.. ..T.. LL LL  CCCCCC   C CCC  # --+---+-- #                   
+  ..TTTTT. TT...T..  LL    CCCCCCCC    CCC  # -...-...- #                   
+ T.TTTT.TTTTTTTTT.  CCLL  CCCCCCCCCC CCCCC  # +...+...+ #                   
+ ... TT. T T T .T.. CCCLLLCCCCCCCCCCCCCCC   # -...-...- #      .     .      
+  .TTTTTTTTTTTTTTT.  CCCCLLLCCCCCCCCCCC     # --+---+-- #                   
+  .T T T T TT. T T.. CCCCCCLL-S-CCCCCC  C   #     -...- #                   
+ ..TTTTTTTTTTTTTTTT.  CCCCLL--.--CCCCC CCC  #H### +...+ #   .  H-e-e-H  .   
+T.TT TTT T\T T . T.. CCCCLLL-.{.-CCCC  CC   #   # -...- #      -.}}}.-      
+ .TTTT.TTTTTTTTTTT.  CCLLLLL--.--CCCC CCC   # .H# --+-- #      e}.}.}e      
+..TT T T T T T TT.. CCLLCCCLL---LCCCCCCC    #   # -...- #      -}}.}}-      
+.TTTTTTT.TTTTT.T..  LLL CCCCLLLLLLCCCCCCCC  ##### +...+ #      e}.}.}e      
+.T T . TTT . TTT.. LL   CCCCCCLCCLLLCCCCC         -...- #      -.}}}.-      
+.TTTTTTTTTTTTTTTT.  L. CCCCCCLLCCCCLLLCCC --+---+---+-- #   .  H-e-e-H  .   
+.TT. T T T T T TT..     CCCLLLCCCCCCCLLC  -...-...-...- #                   
+ .TTTTTTTTTTTT..TT.. . CCLLLCCCCCCCCCCLC  +...+...+...+H#                   
+ ...TT T .TT TTTTTT... LLLCCCCCCCCC CCLC  -...-...-...- H      .     .      
+  T..TTTTTT....T.TT. .LL  CCCCCCCC   LLCC --+---+---+--                     
+    ....TT..  .....  LL    CCCCCC   LL CC               #H                  
+       ....     T.  LL       CC     L   CH###############                   
+ENDMAP
+RANDOM_PLACES:(25,02),(21,14),(20,20),(36,20)
+OBJECT[80%]:'=',"fire resistance",place[0]
+
+GEOMETRY:center,center
+MAP
+  T.    T.T                    CC     CC    #######H#H                      
+ T.... ......   ...T  LLL    CCCCCC  CCCC   #       H   #################H. 
+   .T...TTTT.. ..T.. LL LL  CCCCCC   C CCC  # --+---+-- #                   
+  ..TTTTT. TT...T..  LL    CCCCCCCC    CCC  # -...-...- #                   
+ T.TTTT.TTTTTTTTT.  CCLL  CCCCCCCCCC CCCCC  # +...+...+ #                   
+ ... TT. T T T .T.. CCCLLLCCCCCCCCCCCCCCC   # -...-...- #      .     .      
+  .TTTTTTTTTTTTTTT.  CCCCLLLCCCCCCCCCCC     # --+---+-- #                   
+  .T T T T TT. T T.. CCCCCCLL-S-CCCCCC  C   #     -...- #                   
+ ..TTTTTTTTTTTTTTTT.  CCCCLL--.--CCCCC CCC  #H### +...+ #   .  H-e-e-H  .   
+T.TT TTT T\T T . T.. CCCCLLL-.{.-CCCC  CC   #   # -...- #      -.}}}.-      
+ .TTTT.TTTTTTTTTTT.  CCLLLLL--.--CCCC CCC   # .H# --+-- #      e}.}.}e      
+..TT T T T T T TT.. CCLLCCCLL---LCCCCCCC    #   # -...- #      -}}.}}-      
+.TTTTTTT.TTTTT.T..  LLL CCCCLLLLLLCCCCCCCC  ##### +...+ #      e}.}.}e      
+.T T . TTT . TTT.. LL   CCCCCCLCCLLLCCCCC         -...- #      -.}}}.-      
+.TTTTTTTTTTTTTTTT.  L. CCCCCCLLCCCCLLLCCC --+---+---+-- #   .  H-e-e-H  .   
+.TT. T T T T T TT..     CCCLLLCCCCCCCLLC  -...-...-...- #                   
+ .TTTTTTTTTTTT..TT.. . CCLLLCCCCCCCCCCLC  +...+...+...+H#                   
+ ...TT T .TT TTTTTT... LLLCCCCCCCCC CCLC  -...-...-...- H      .     .      
+  T..TTTTTT....T.TT. .LL  CCCCCCCC   LLCC --+---+---+--                     
+    ....TT..  .....  LL    CCCCCC   LL CC               #H                  
+       ....     T.  LL       CC     L   CH###############                   
+ENDMAP
+
+RANDOM_PLACES:(48,04),(52,04),(52,08),(52,12),(44,16),(52,16)
+BRANCH:(48,16,48,16),(00,00,00,00)
+TELEPORT_REGION:(47,15,49,17),(00,00,00,00)
+NON_DIGGABLE:(00,00,75,20)
+
+NON_PASSWALL:(43,00,43,12)
+NON_PASSWALL:(40,13,49,13)
+NON_PASSWALL:(49,07,49,12)
+NON_PASSWALL:(45,07,48,07)
+NON_PASSWALL:(45,01,45,06)
+NON_PASSWALL:(46,01,54,01)
+NON_PASSWALL:(55,00,55,19)
+NON_PASSWALL:(42,19,54,19)
+NON_PASSWALL:(41,13,41,20)
+
+NON_PASSWALL:(64,08,68,08)
+NON_PASSWALL:(64,14,68,14)
+NON_PASSWALL:(63,09,63,13)
+NON_PASSWALL:(69,09,69,13)
+
+MAZEWALK:(74,01),south
+MAZEWALK:(10,09),south
+
+# entrance
+REGION:(47,15,49,17),lit,"ordinary"
+ENGRAVING:(48,16),engrave,"Beware of Dreams come true!"
+MONSTER:'i',"imp",(49,15),hostile
+TRAP[60%]:"sleep gas",(48,15)
+TRAP[60%]:"sleep gas",(47,16)
+TRAP[60%]:"sleep gas",(49,16)
+TRAP[60%]:"sleep gas",(48,17)
+
+# false treasure
+MONSTER:'$',"large pile of killer coins",place[0],asleep
+MONSTER[80%]:'$',"pile of killer coins",place[0],asleep
+MONSTER[80%]:'$',"huge pile of killer coins",place[0],asleep
+MONSTER[80%]:'$',"pile of killer coins",place[0],asleep
+MONSTER[80%]:'$',"huge pile of killer coins",place[0],asleep
+MONSTER[80%]:'$',"large pile of killer coins",place[0],asleep
+MONSTER[40%]:'$',"pile of killer coins",place[0],asleep
+MONSTER[40%]:'$',"large pile of killer coins",place[0],asleep
+MONSTER[40%]:'$',"huge pile of killer coins",place[0],asleep
+OBJECT[60%]:'*',"worthless piece of white glass",place[0],cursed,0
+OBJECT[60%]:'*',"worthless piece of white glass",place[0],uncursed,0
+OBJECT[60%]:'*',"worthless piece of white glass",place[0],blessed,0
+
+# bad food
+MONSTER:'%',"killer food ration",place[1],asleep
+MONSTER[80%]:'%',"killer food ration",place[1],asleep
+MONSTER[80%]:'%',"killer food ration",place[1],asleep
+MONSTER[40%]:'%',"killer food ration",place[1],asleep
+MONSTER[40%]:'%',"killer food ration",place[1],asleep
+MONSTER[80%]:'%',"killer tripe ration",place[1],asleep
+MONSTER[80%]:'%',"bad egg",place[1],asleep
+MONSTER[60%]:'%',"bad egg",place[1],asleep
+MONSTER[40%]:'%',"bad egg",place[1],asleep
+OBJECT:'%',"egg",place[1],"giant louse",2
+OBJECT[40%]:'%',"egg",place[1],"giant flea",0
+OBJECT[20%]:'%',"mushroom",place[1],cursed,0
+OBJECT[50%]:'%',"tin",place[1],"asphynx meat",0
+OBJECT[50%]:'%',"tin",place[1],"green slime meat",0
+
+# junk
+OBJECT[40%]:'!',"sickness",place[2],cursed,0
+OBJECT[40%]:'!',"sleeping",place[2],cursed,0
+OBJECT[40%]:'!',"confusion",place[2],cursed,0
+OBJECT[40%]:'!',"hallucination",place[2],cursed,0
+OBJECT[40%]:'!',"blindness",place[2],cursed,0
+OBJECT[40%]:'!',"polymorph",place[2],cursed,0
+OBJECT[40%]:'!',"sickness",place[2],cursed,0
+OBJECT[40%]:'!',"acid",place[2],cursed,0
+OBJECT[40%]:'!',"paralysis",place[2],cursed,0
+OBJECT[40%]:'!',"polymorph",place[2],cursed,0
+OBJECT[40%]:'/',"draining",place[2],cursed,0
+OBJECT[60%]:'/',"opening",place[2],cursed,0
+OBJECT[80%]:'/',"nothing",place[2],cursed,0
+OBJECT[60%]:'/',"secret door detection",place[2],cursed,0
+OBJECT[40%]:'[',"fumble boots",place[2],cursed,-2
+OBJECT[40%]:'[',"gauntlets of fumbling",place[2],cursed,-4
+OBJECT[40%]:'[',"poisonous cloak",place[2],cursed,-1
+OBJECT[40%]:'[',"robe of weakness",place[2],cursed,0
+OBJECT[40%]:')',"fly swatter",place[2],cursed,-2,"Bugshmasher"
+OBJECT[40%]:')',"worm tooth",place[2],cursed,-4,"Storm Brand"
+OBJECT[40%]:')',"short sword",place[2],cursed,-3,"Chaosbane"
+OBJECT[40%]:'"',"amulet of strangulation",place[2],cursed,0,"life saving"
+OBJECT[40%]:'=',"sleeping",place[2],cursed,0,"slow digestion"
+OBJECT[40%]:'=',"hunger",place[2],cursed,0,"free action"
+OBJECT[40%]:'=',"increase accuracy",place[2],blessed,-9,"polymorph control"
+OBJECT[40%]:'(',"oil lamp",place[2],cursed,0
+MONSTER:'@',random,place[2],hostile
+MONSTER:'@',random,place[2],hostile
+MONSTER[80%]:'@',random,place[2],peaceful
+MONSTER[60%]:'@',random,place[2],asleep
+MONSTER[60%]:'@',random,place[2],hostile
+MONSTER[60%]:'@',random,place[2],peaceful
+MONSTER[60%]:'@',random,place[2],hostile
+MONSTER[40%]:'@',random,place[2],hostile
+MONSTER[40%]:'@',random,place[2],peaceful
+
+# such a waste...
+OBJECT:'(',"tinning kit",place[3],cursed,0
+OBJECT:'%',"corpse",place[3],"black dragon",0
+OBJECT:'%',"corpse",place[3],"deep dragon",0
+OBJECT:'%',"corpse",place[3],"red dragon",0
+OBJECT:'%',"corpse",place[3],"orange dragon",0
+OBJECT:'%',"corpse",place[3],"yellow dragon",0
+OBJECT:'%',"corpse",place[3],"green dragon",0
+OBJECT:'%',"corpse",place[3],"blue dragon",0
+OBJECT:'%',"corpse",place[3],"shimmering dragon",0
+OBJECT:'%',"corpse",place[3],"gray dragon",0
+OBJECT:'%',"corpse",place[3],"white dragon",0
+MONSTER:'w',"maggot",place[3],hostile
+MONSTER:'w',"maggot",place[3],hostile
+MONSTER:'w',"maggot",place[3],hostile
+MONSTER:'w',"maggot",place[3],hostile
+MONSTER:'w',"maggot",place[3],hostile
+MONSTER:'w',"maggot",place[3],hostile
+MONSTER[50%]:'w',"maggot",place[3],hostile
+MONSTER[50%]:'w',"maggot",place[3],hostile
+MONSTER[50%]:'s',"carrion crawler",place[3],asleep
+
+# snake pit
+TRAP:"spiked pit",place[4]
+MONSTER[90%]:'S',"king cobra",place[4],hostile
+MONSTER[90%]:'S',"pit viper",place[4],asleep
+MONSTER[90%]:'S',"pit viper",place[4],hostile
+MONSTER:'S',random,place[4],hostile
+MONSTER:'S',random,place[4],asleep
+MONSTER[50%]:'S',random,place[4],hostile
+MONSTER[50%]:'S',random,place[4],asleep
+MONSTER:'s',random,place[4],asleep
+MONSTER[50%]:'s',random,place[4],hostile
+
+# no temple 
+ALTAR:place[5],coaligned,altar
+MONSTER:'@',"aligned priest",place[5],coaligned,peaceful
+
+# boulder path
+OBJECT:'`',"boulder",(44,0)
+TRAP:"rolling boulder",(44,01)
+TRAP:"rolling boulder",(44,07)
+OBJECT:'/',"striking",(46,10),uncursed,2
+OBJECT:')',"runesword",(46,10),cursed,0
+MONSTER[60%]:'8',"ghost",(47,00),hostile
+MONSTER[60%]:'8',"ghost",(50,00),hostile
+
+# maze 
+MONSTER[60%]:'w',"rot worm",(63,05),hostile
+MONSTER[60%]:'w',"rot worm",(69,05),hostile
+MONSTER[60%]:'w',"rot worm",(60,08),hostile
+MONSTER[60%]:'w',"rot worm",(72,08),hostile
+MONSTER[60%]:'w',"rot worm",(60,14),hostile
+MONSTER[60%]:'w',"rot worm",(72,14),hostile
+MONSTER[60%]:'w',"rot worm",(63,17),hostile
+MONSTER[60%]:'w',"rot worm",(69,17),hostile
+
+MONSTER[50%]:'8',"shade",(63,05),hostile
+MONSTER[50%]:'8',"shade",(69,17),hostile
+
+# room
+REGION:(64,09,68,13),unlit,"swamp"
+OBJECT:'[',"gray dragon scales",(66,11),cursed,-9
+CONTAINER:'`',"statue",(66,11),"arch-lich",0
+TRAP:"statue",(66,11)
+OBJECT:'/',"fireball",contained
+OBJECT:'/',"create horde",contained,uncursed,1
+OBJECT:'/',"speed monster",contained,uncursed,1
+OBJECT:'/',"make invisible",contained,uncursed,1
+OBJECT:'%',"corpse",contained,"cockatrice",0
+OBJECT:'[',"leather gloves",contained,cursed,-1
+
+MONSTER:';',"electric eel",(66,10),hostile
+MONSTER:';',"electric eel",(66,12),hostile
+MONSTER:';',"electric eel",(65,11),hostile
+MONSTER:';',"electric eel",(67,11),hostile
+MONSTER[50%]:';',"electric eel",(64,11),hostile
+MONSTER[50%]:';',"electric eel",(68,11),hostile
+
+# cloud
+MONSTER:'E',"air elemental",(23,07),hostile
+MONSTER[60%]:'E',"air elemental",(24,08),hostile
+MONSTER:'E',"fire elemental",(32,15),hostile
+MONSTER[60%]:'E',"fire elemental",(33,16),hostile
+MONSTER:'E',"earth elemental",(40,08),hostile
+MONSTER[60%]:'E',"earth elemental",(39,09),hostile
+MONSTER:'E',"water elemental",(31,02),hostile
+MONSTER[60%]:'E',"water elemental",(32,03),hostile
+MONSTER:'E',"stalker",(40,03),hostile
+MONSTER[60%]:'E',"stalker",(39,04),hostile
+MONSTER[40%]:'E',random,(33,07),hostile
+MONSTER[40%]:'E',random,(34,08),hostile
+MONSTER[40%]:'E',random,(25,13),hostile
+MONSTER[40%]:'E',random,(26,14),hostile
+
+MONSTER:'g',"gremlin",(38,12),"Clown",hostile
+
+MONSTER:'h',"mind flayer",(29,09),"Ginger",hostile
+MONSTER[80%]:'h',"mind flayer",(30,09),"Victoria",hostile
+MONSTER[80%]:'h',"mind flayer",(31,09),"Emma",hostile
+MONSTER[60%]:'h',"master mind flayer",(30,08),"Mel C.",hostile
+MONSTER[60%]:'h',"master mind flayer",(30,10),"Mel B.",hostile
+CONTAINER:'(',"chest",(30,09)
+OBJECT[70%]:'"',"amulet of flying",contained
+OBJECT:'/',"cold",contained,uncursed,+16
+OBJECT[80%]:'/',"digging",contained
+
+# forest
+MONSTER:'u',"Nightmare",(10,09),asleep
+MONSTER[60%]:'n',"pixie",(10,09),asleep
+MONSTER[60%]:'n',"pixie",(10,09),hostile
+MONSTER[60%]:'n',"quickling",(10,09),asleep
+MONSTER[60%]:'n',"quickling",(10,09),hostile
+MONSTER[60%]:'n',"pixie",(10,09),asleep
+MONSTER[60%]:'n',"pixie",(10,09),hostile
+MONSTER:'u',"black unicorn",(10,09),hostile
+MONSTER:'u',"gray unicorn",(10,09),hostile
+MONSTER:'u',"white unicorn",(10,09),hostile
+MONSTER:'n',"wood nymph",(10,09),hostile
+MONSTER:'n',"brownie",(10,09),asleep
+MONSTER:'n',"pixie",(10,09),asleep
+MONSTER:'n',"pixie",(10,09),hostile
+MONSTER:'n',"pixie",(10,09),asleep
+MONSTER:'n',"pixie",(10,09),hostile
+MONSTER:'n',"quickling",(10,09),asleep
+MONSTER:'n',"quickling",(10,09),hostile
+
+# all around
+
+# Monsters
+MONSTER:'y',"black light",random,hostile
+MONSTER:'y',"black light",random,hostile
+MONSTER:'y',"black light",random,hostile
+MONSTER:'y',"black light",random,hostile
+MONSTER:'y',"black light",random,hostile
+MONSTER:'y',"black light",random,hostile
+MONSTER:'y',"black light",random,hostile
+MONSTER:'y',"black light",random,hostile
+MONSTER[50%]:'y',"black light",random,hostile
+MONSTER[50%]:'y',"black light",random,hostile
+MONSTER[50%]:'y',"black light",random,hostile
+MONSTER[50%]:'y',"black light",random,hostile
+MONSTER[50%]:'y',"black light",random,hostile
+MONSTER[50%]:'y',"black light",random,hostile
+MONSTER[50%]:'y',"black light",random,hostile
+MONSTER[50%]:'y',"black light",random,hostile
+MONSTER:'8',"shadow",random,hostile
+MONSTER:'8',"shadow",random,hostile
+MONSTER:'8',"shadow",random,hostile
+MONSTER:'8',"shadow",random,hostile
+MONSTER[40%]:'8',"shadow",random,hostile
+MONSTER[40%]:'8',"shadow",random,hostile
+MONSTER[40%]:'8',"shadow",random,hostile
+MONSTER[40%]:'8',"shadow",random,hostile
+
+# Traps
+TRAP:"sleep gas",random
+TRAP:"sleep gas",random
+TRAP:"sleep gas",random
+TRAP:"sleep gas",random
+TRAP:"sleep gas",random
+TRAP:"sleep gas",random
+TRAP:"sleep gas",random
+TRAP:"sleep gas",random
+TRAP[50%]:"sleep gas",random
+TRAP[50%]:"sleep gas",random
+TRAP[50%]:"sleep gas",random
+TRAP[50%]:"sleep gas",random
+TRAP:"anti magic",random
+TRAP:"anti magic",random
+TRAP[50%]:"anti magic",random
+TRAP[50%]:"anti magic",random
+
+# Engravings
+ENGRAVING:random,random,"You can feel eyes on your back."
+ENGRAVING:random,random,"I can see you..."
+
+# doors
+DOOR:locked,(30,07)
+
+DOOR:locked,(48,02)
+DOOR:locked,(52,02)
+DOOR:locked,(46,04)
+DOOR:locked,(50,04)
+DOOR:locked,(54,04)
+DOOR:locked,(48,06)
+DOOR:locked,(52,06)
+DOOR:locked,(50,08)
+DOOR:locked,(54,08)
+DOOR:locked,(52,10)
+DOOR:locked,(50,12)
+DOOR:locked,(54,12)
+DOOR:locked,(44,14)
+DOOR:locked,(48,14)
+DOOR:locked,(52,14)
+DOOR:locked,(42,16)
+DOOR:locked,(46,16)
+DOOR:locked,(50,16)
+DOOR:locked,(54,16)
+DOOR:locked,(44,18)
+DOOR:locked,(48,18)
+DOOR:locked,(52,18)
+
+# Nightmare's Special Passages by Amy
+MAZE:"night-2",' '
+FLAGS:noteleport,hardfloor,nommap,shortsighted,spooky
+GEOMETRY:center,center
+#         1         2         3         4         5         6         7
+#123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+.|..........................................................................
+.----------------------------------------S----------------------------------
+.|.........+.|...........S.+.|.S........|.|......|.+...........+..........|.
+.|+|-----|+|.|...........|.|.|.|........|.|......|.|---------------------+|.
+.|.|.....|.|.|...........|.|.|.|........|.|......S.-------------..........|.
+.|.|.....|.|.|...........|.|.|.|........|.|......|.+.........+.-----------|.
+.|.|.....|.|.-------------.|.|.---------|.|---------------+|+|.+..........|.
+.|.|---S-|.|.+...........+.|.|.+........+.+........+.......|.|.|--------|+|.
+.|.|.....|.|.-----|+|--S-|.|.|.------------------------+---|.|.|.+.|....|.S.
+.S.|---|+|.|.|....|.|....|.|.|.|...........|.S.....|.......|.|.|.|.|....|.|.
+.|.|...|.|.|.S....|.|....|.|.|.|...........S.|----+|--------.|.|.|.S....|.|.
+.|.|...|.|.|.|....|.|....|.+.|.|...........|.|...|.+.......+.|.|.|.|....|.|.
+.|.|...|.|+|+|----|.---------|+|------------.|...S.|--------.|.|.|.|....|.|.
+.|.|...|.|......+.|.+........+.............+.|...|.|.......|.|.|.|.|....|.|.
+.|.|...|.--------.|.-----------|+|---S---|+|.|...|.|.......|.|.+.|.|....|.|.
+.|.|...|.|......|.|.|..........|.|.......|.|.|----------S--|+|----+|....|.|.
+.|.|...|.S......|.|.|..........|.|.......|.|.+.........+...........|....|.|.
+.|+|S--|+-------|.|.S..........|.---------.|-------+---|+----------------+|.
+.|.....|........+.|.|..........|.+.......+.|...........|.........+........|.
+-------------------------------------S-------------------------------------.
+..........................................................................|.
+ENDMAP
+
+RANDOM_PLACES:(00,00),(00,20),(75,00),(75,20),(16,03),(55,13),(37,15),(15,15),(22,09),(04,04)
+
+BRANCH:(00,00,75,20),(00,00,00,00)
+NON_DIGGABLE:(00,00,75,20)
+NON_PASSWALL:(00,00,75,20)
+
+REGION:(12,02,12,11),unlit,"randomroom"
+REGION:(04,04,08,06),unlit,"randomroom"
+REGION:(04,10,06,16),unlit,"randomroom"
+REGION:(10,15,15,16),unlit,"randomroom"
+REGION:(14,02,24,05),unlit,"randomroom"
+REGION:(14,09,17,11),unlit,"randomroom"
+REGION:(21,09,24,11),unlit,"randomroom"
+REGION:(21,15,30,18),unlit,"randomroom"
+REGION:(32,09,42,11),unlit,"randomroom"
+REGION:(34,15,40,16),unlit,"randomroom"
+REGION:(43,02,48,05),unlit,"randomroom"
+REGION:(46,11,48,14),unlit,"randomroom"
+REGION:(52,13,58,14),unlit,"randomroom"
+REGION:(68,08,71,16),unlit,"randomroom"
+REGION:(43,07,50,07),unlit,"randomroom"
+REGION:(44,09,44,16),unlit,"randomroom"
+REGION:(44,18,54,18),unlit,"randomroom"
+REGION:(46,16,54,16),unlit,"randomroom"
+REGION:(52,02,62,02),unlit,"randomroom"
+REGION:(52,05,60,05),unlit,"randomroom"
+REGION:(60,07,60,14),unlit,"randomroom"
+REGION:(56,16,66,16),unlit,"randomroom"
+REGION:(56,18,64,18),unlit,"randomroom"
+REGION:(66,18,73,18),unlit,"randomroom"
+REGION:(64,02,73,02),unlit,"randomroom"
+REGION:(64,04,73,04),unlit,"randomroom"
+REGION:(64,06,73,06),unlit,"randomroom"
+REGION:(73,08,73,16),unlit,"randomroom"
+REGION:(02,02,10,02),unlit,"randomroom"
+REGION:(02,04,02,16),unlit,"randomroom"
+REGION:(08,18,15,18),unlit,"randomroom"
+REGION:(14,07,24,07),unlit,"randomroom"
+REGION:(19,09,19,18),unlit,"randomroom"
+REGION:(21,13,28,13),unlit,"randomroom"
+REGION:(26,02,26,11),unlit,"randomroom"
+REGION:(28,02,28,11),unlit,"randomroom"
+REGION:(30,02,30,11),unlit,"randomroom"
+REGION:(30,13,42,13),unlit,"randomroom"
+REGION:(32,07,39,07),unlit,"randomroom"
+REGION:(34,18,40,18),unlit,"randomroom"
+
+MONSTER:'u',"Nightmare",place[1],asleep
+
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'y',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+MONSTER:'n',random,random,hostile
+
+ENGRAVING:place[2],random,"The Eternal Darkness"
+ENGRAVING:place[3],random,"Here's looking at you, kid."
+ENGRAVING:place[4],random,"I find your lack of fate disturbing."
+ENGRAVING:place[5],random,"You don't stand a chance!"
+ENGRAVING:place[6],random,"This is your grave."
+ENGRAVING:place[7],random,"You got Boned by Yhelothar."
+ENGRAVING:place[8],random,"Do you want your possessions identified?"
+ENGRAVING:place[9],random,"The colors are very fleecy."
+
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+
+OBJECT:'[',"cloak of fumbling",random
+OBJECT:'[',"cloak of unspelling",random
+OBJECT:'[',"anti caster cloak",random
+OBJECT:'[',"cloak of luck negation",random
+OBJECT:'[',"yellow spell cloak",random
+OBJECT:'[',"cloak of inventorylessness",random
+OBJECT:'[',"cloak of respawning",random
+OBJECT:'[',"eerie cloak",random
+OBJECT:'[',"helm of lose identification",random
+OBJECT:'[',"helm of obscured display",random
+OBJECT:'[',"blacky helmet",random
+OBJECT:'[',"helm of bad alignment",random
+OBJECT:'[',"out of memory helmet",random
+OBJECT:'[',"helm of amnesia",random
+OBJECT:'[',"oilskin gloves",random
+OBJECT:'[',"menu nose gloves",random
+OBJECT:'[',"unwieldy gloves",random
+OBJECT:'[',"confusing gloves",random
+OBJECT:'[',"gauntlets of missing information",random
+OBJECT:'[',"gauntlets of trap creation",random
+OBJECT:'[',"sado maso gloves",random
+OBJECT:'[',"chaos gloves",random
+OBJECT:'[',"zipper boots",random
+OBJECT:'[',"autodestruct de vice boots",random
+OBJECT:'[',"boots of fainting",random
+OBJECT:'[',"gridbug conduct boots",random
+OBJECT:'[',"disenchanting boots",random
+OBJECT:'[',"pet-stomping platform boots",random
+OBJECT:'[',"dementia boots",random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+OBJECT:'[',random,random
+
+DOOR:locked,(31,02)
+DOOR:locked,(60,15)
+DOOR:locked,(61,05)
+DOOR:locked,(63,02)
+DOOR:locked,(63,06)
+DOOR:locked,(63,14)
+DOOR:locked,(65,08)
+DOOR:locked,(65,18)
+DOOR:locked,(67,10)
+DOOR:locked,(73,03)
+DOOR:locked,(73,07)
+DOOR:locked,(73,17)
+DOOR:locked,(74,08)
+DOOR:locked,(37,14)
+DOOR:locked,(37,19)
+DOOR:locked,(40,07)
+DOOR:locked,(41,01)
+DOOR:locked,(42,07)
+DOOR:locked,(42,14)
+DOOR:locked,(41,18)
+DOOR:locked,(43,10)
+DOOR:locked,(43,13)
+DOOR:locked,(45,09)
+DOOR:locked,(45,16)
+DOOR:locked,(49,04)
+DOOR:locked,(49,12)
+DOOR:locked,(50,10)
+DOOR:locked,(51,02)
+DOOR:locked,(51,05)
+DOOR:locked,(51,07)
+DOOR:locked,(51,11)
+DOOR:locked,(51,17)
+DOOR:locked,(55,08)
+DOOR:locked,(55,16)
+DOOR:locked,(56,15)
+DOOR:locked,(56,17)
+DOOR:locked,(58,06)
+DOOR:locked,(59,11)
+DOOR:locked,(60,06)
+DOOR:locked,(02,03)
+DOOR:locked,(01,09)
+DOOR:locked,(02,17)
+DOOR:locked,(07,07)
+DOOR:locked,(08,09)
+DOOR:locked,(08,17)
+DOOR:locked,(09,16)
+DOOR:locked,(10,03)
+DOOR:locked,(10,12)
+DOOR:locked,(11,02)
+DOOR:locked,(12,12)
+DOOR:locked,(13,10)
+DOOR:locked,(13,07)
+DOOR:locked,(16,13)
+DOOR:locked,(16,18)
+DOOR:locked,(19,08)
+DOOR:locked,(20,13)
+DOOR:locked,(20,17)
+DOOR:locked,(23,08)
+DOOR:locked,(25,02)
+DOOR:locked,(25,07)
+DOOR:locked,(27,02)
+DOOR:locked,(27,11)
+DOOR:locked,(29,13)
+DOOR:locked,(30,12)
+DOOR:locked,(31,07)
+DOOR:locked,(32,14)
+DOOR:locked,(33,18)
+
+# Nightmare's Chaos Terrain by Amy
+MAZE:"night-3",' '
+FLAGS:noteleport,hardfloor,nommap,shortsighted,spooky,lethe
+GEOMETRY:center,center
+#         1         2         3         4         5         6         7
+#123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+----------------------------------------------------------------------------
+|.eL..L.CT.C.TI..}..eL}eL.}Ce.T.CT..CT.Le}LC}CeF}C.L.CeLTe.TC..L}.CL.}.C.}.|
+|I.eTFL.IFeTI.CeTI.F.eTI.eFeF.IF.eIF...FL..FL.e.TFLeTILFe.FI.eT.e.TFeTLF..L|
+|FLeFT.F}I.C}I..F}.F}}}.eIL}.F..eLT}ee.}Ie.C}.}e..}e.e}CLCe}.eeFCITI.eFC..e|
+|}IT.F.I.CeI.TCFI.Te.F..LFI..FC}LI.FTL.I.FT.TI.CLF.T.eFeCITCI.eTLFCI.eTFL}T|
+|}e.}L.TITTI.}..FCCFLCC.LC.CLF.F...TFIL..Fe..Te}I.eI}e..CLI.TF}.L..F...e}eT|
+|TI.C.eFLFeFFeF.eeF.}FL.F.LF.eFFeeFeTFFFCFeFC..F.F.}}C}.I.TeTI.LT}C.e.}}CLC|
+|FCITI.eFC..eFLeFT.F}I.C}I..F}.F}}}.e------.eLT}ee.}Ie.C}.}e..}e.e}CLCe}.ee|
+|LITF.C.FeT}IFeC}.eFFLF}..eF}CLIe.TT}|....|FI..eLeFFLF.F}.}L.}eCeTFeT..e}}e|
+|FTI.LT.IF.e.eCL.eT.}LT}..}.I}eTFLLFL|....|FeeTIC}TTC}}}.eCL.e.e.F.FL}.LeeL|
+|}C.}e}.T}I.IFLFC.eLFCLT.eF.C.eI.F...|....eLe.CL.eC}.eFeC.F}eCL.FL.eC}.CLL}|
+|FITF}F.C}.e.FC}F.IF}.e..FC}.eF.eFIeT|....|FLC}.eFL.eF.eFFCe.FFC.FCLLC.F.}e|
+|}.CL}IeLTI.TTI..I.eF...F.FF..FTeTII.------L.L.}.eCL..eCeF..FTF.CTF}C.}}.CL|
+|}Fe.}}.CLe}.}..ITF...eFL}F.F.eFFLe.C}FCLeFCLTFLCII.FLC..F.FL..TC}LFCF.eTLT|
+|..CL.eF}.F.T.e}.eI}..}ILI.T}LF.eF.F}F.e.CL.e}.}CL.ee}C.eeTTTeC}T..C}.e.T}e|
+|F..IT...I..eeTI}.eIT}.}}.eI.}CI..}I.CL}FL.Ce}.F.CLF.FLFC}}.eFI.T}.}.eT}..e|
+|TI.LT.IF.e.eCL.eT.}LT}..}.I}eTFLLFLCL..FLFeeTIC}TTC}}}.eCL.e.e.F.FL}.LeeLF|
+|C}.eI}.TI.TCL.CL.F}C}.eL.}}eL}..eL}.eF}.eF.eFLLFCLF}.eL.}.eCeeT.}}I.ILF.LF|
+|}C.T}.TTII.FF.L}.eF}.eF}.eF}C.FeC}}.LC.TI.eTI.C}TTII}}e}.eCL}.eLFe.}}FF.FI|
+----------------------------------------------------------------------------
+ENDMAP
+RANDOM_PLACES:(01,14),(74,01)
+NON_DIGGABLE:(00,00,75,19)
+BRANCH:(01,14,01,14),(00,00,00,00)
+
+REGION:(00,00,75,19),unlit,"ordinary"
+
+REGION:(18,02,18,02),unlit,"randomroom"
+REGION:(52,03,52,03),unlit,"randomroom"
+REGION:(65,15,65,15),unlit,"randomroom"
+REGION:(24,17,24,17),unlit,"randomroom"
+REGION:(06,04,06,04),unlit,"randomroom"
+
+ENGRAVING:random,random,"iter vehemens ad necem"
+ENGRAVING:random,random,"You hear gutteral voices chanting."
+ENGRAVING:random,random,"You hear drums beating ominously!"
+ENGRAVING:random,random,"The drums are beating faster!"
+ENGRAVING:random,random,"You hear somebody screaming for help!"
+ENGRAVING:random,random,"You will not get in!"
+ENGRAVING:random,random,"You think you're clever, huh?"
+ENGRAVING:random,random,"You hear someone scream: 'No! Stop! The Knife! Aaaaaahhhh!'"
+ENGRAVING:random,random,"You've been detected by a security camera! Har har har!"
+ENGRAVING:random,random,"Bwarharharharharharhar!"
+ENGRAVING:random,random,"All your personal files are encrypted cryptographically strong!"
+ENGRAVING:random,random,"Without the original key, recovery of your files is impossible!"
+ENGRAVING:random,random,"The engraving shines so brigtly, you're blinded permanently!"
+ENGRAVING:random,random,"The master mind flayer's tentacles suck you!"
+ENGRAVING:random,random,"You suddenly don't feel the void in your head any more."
+ENGRAVING:random,random,"There's an inventorylessness trap on this dungeon level."
+
+TRAP: random, (38,01)
+TRAP: random, (39,02)
+TRAP: random, (41,02)
+TRAP: random, (40,03)
+TRAP: random, (41,03)
+TRAP: random, (38,04)
+TRAP: random, (41,04)
+TRAP: random, (39,05)
+TRAP: random, (39,06)
+TRAP: random, (39,13)
+TRAP: random, (39,14)
+TRAP: random, (41,15)
+TRAP: random, (38,16)
+TRAP: random, (40,17)
+TRAP: random, (41,18)
+TRAP: "alarm", (39,01)
+TRAP: "alarm", (40,02)
+TRAP: "alarm", (38,03)
+TRAP: "alarm", (40,04)
+TRAP: "alarm", (40,05)
+TRAP: "alarm", (41,06)
+TRAP: "alarm", (40,13)
+TRAP: "alarm", (41,13)
+TRAP: "alarm", (42,14)
+TRAP: "alarm", (40,15)
+TRAP: "alarm", (40,16)
+TRAP: "alarm", (41,16)
+TRAP: "alarm", (38,17)
+TRAP: "alarm", (39,18)
+TRAP: "alarm", (40,18)
+
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+
+MONSTER: 'L', random, (38,08), hostile, asleep
+OBJECT: '?', random, (38,08)
+MONSTER: 'L', random, (38,09), hostile, asleep
+OBJECT: '?', random, (38,09)
+MONSTER: 'L', random, (38,10), hostile, asleep
+OBJECT: '?', random, (38,10)
+MONSTER: 'L', random, (38,11), hostile, asleep
+OBJECT: '?', random, (38,11)
+MONSTER: 'L', random, (39,08), hostile, asleep
+OBJECT: '/', random, (39,08)
+MONSTER: 'L', random, (39,09), hostile, asleep
+OBJECT: '/', random, (39,09)
+MONSTER: 'L', random, (39,10), hostile, asleep
+OBJECT: '/', random, (39,10)
+MONSTER: 'L', random, (39,11), hostile, asleep
+OBJECT: '/', random, (39,11)
+MONSTER: 'L', random, (40,08), hostile, asleep
+OBJECT: '!', random, (40,08)
+MONSTER: 'L', random, (40,09), hostile, asleep
+OBJECT: '!', random, (40,09)
+MONSTER: 'L', random, (40,10), hostile, asleep
+OBJECT: '!', random, (40,10)
+MONSTER: 'L', random, (40,11), hostile, asleep
+OBJECT: '!', random, (40,11)
+MONSTER: 'L', random, (41,08), hostile, asleep
+OBJECT: random, random, (41,08)
+MONSTER: 'L', random, (41,09), hostile, asleep
+OBJECT: random, random, (41,09)
+MONSTER: 'L', random, (41,10), hostile, asleep
+OBJECT: random, random, (41,10)
+MONSTER: 'L', random, (41,11), hostile, asleep
+OBJECT: random, random, (41,11)
+
+MONSTER: 'L', random, (01,01), hostile
+MONSTER: 'L', random, (74,18), hostile
+
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'v', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+MONSTER: 'E', random, random
+
+OBJECT: '?', "create monster", random
+OBJECT: '/', "create monster", random
+OBJECT: '?', "create victim", random
+OBJECT: '/', "create horde", random
+OBJECT: '=', "timely backup", random
+OBJECT: '?', "summon undead", random
+OBJECT: '/', "summon undead", random
+OBJECT: '/', "reduce max hitpoints", random
+OBJECT: '!', "amnesia", random
+OBJECT: '!', "cyanide", random
+OBJECT: '?', "trap creation", random
+OBJECT: '?', "create trap", random
+OBJECT: '?', "flood", random
+OBJECT: '?', "lava", random
+OBJECT: '?', "barrhing", random
+OBJECT: '?', "lockout", random
+OBJECT: '/', "banishment", random
+OBJECT: '!', "cancellation", random
+OBJECT: '!', "slime", random
+OBJECT: '?', "bad effect", random
+OBJECT: '/', "bad effect", random
+OBJECT: '/', "clone monster", random
+OBJECT: '?', "destroy weapon", random
+OBJECT: '?', "destroy armor", random
+OBJECT: '?', "stoning", random
+OBJECT: '?', "amnesia", random
+OBJECT: '/', "stoning", random
+OBJECT: '/', "curse items", random
+OBJECT: '/', "amnesia", random
+OBJECT: '/', "levitation", random
+OBJECT: '/', "remove resistance", random
+OBJECT: '/', "bad luck", random
+OBJECT: '/', "corrosion", random
+OBJECT: '/', "starvation", random
+OBJECT: '/', "confusion", random
+OBJECT: '/', "sliming", random
+OBJECT: '/', "lycanthropy", random
+OBJECT: '/', "fumbling", random
+OBJECT: '/', "punishment", random
+OBJECT: '?', "punishment", random
+OBJECT: '?', "summon boss", random
+OBJECT: '?', "chaos terrain", random
+OBJECT: '?', "nastiness", random
+OBJECT: '?', "demonology", random
+OBJECT: '?', "elementalism", random
+OBJECT: '?', "girliness", random
+OBJECT: '/', "summon sexy girl", random
+OBJECT: '?', "group summoning", random
+OBJECT: '?', "summon ghost", random
+OBJECT: '?', "megaload", random
+OBJECT: '?', "enrage", random
+OBJECT: '/', "tidal wave", random
+OBJECT: '?', "antimatter", random
+OBJECT: '?', "summon elm", random
+OBJECT: '/', "summon elm", random
+OBJECT: '/', "drain mana", random
+OBJECT: '/', "finger bending", random
+OBJECT: '?', "immobility", random
+OBJECT: '/', "immobility", random
+OBJECT: '?', "flooding", random
+OBJECT: '?', "egoism", random
+OBJECT: '/', "egoism", random
+OBJECT: '?', "sin", random
+OBJECT: '/', "sin", random
+OBJECT: '/', random, random
+OBJECT: '?', random, random
+OBJECT: '!', random, random
+OBJECT: '/', random, random
+OBJECT: '?', random, random
+OBJECT: '!', random, random
+OBJECT: '/', random, random
+OBJECT: '?', random, random
+OBJECT: '!', random, random
+OBJECT: '/', random, random
+OBJECT: '?', random, random
+OBJECT: '!', random, random
+OBJECT: '/', random, random
+OBJECT: '?', random, random
+OBJECT: '!', random, random
+OBJECT: '/', random, random
+OBJECT: '?', random, random
+OBJECT: '!', random, random
+OBJECT: '/', random, random
+OBJECT: '?', random, random
+OBJECT: '!', random, random
+
+MONSTER:'u',"Nightmare",(74,01),asleep
+
+# Nightmare's Gauntlet by Amy
+MAZE:"night-4",' '
+FLAGS:noteleport,hardfloor,nommap,shortsighted,spooky,lethe
+GEOMETRY:center,center
+#         1         2         3         4         5         6         7
+#123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+----------------------------------------------------------------------------
+|..............................FF|........LLLL.................|...........|
+|-C-C-C-C-C-C-C-C-C-C-C-C-C-C-C-F|.|+-------LLL................|...........|
+|..............................|FF.|.......|LLLL...............|...........|
+|..............................|----.......|LLLLL..............+...........|
+|..............................|...|.......|LLLLLL.............|...........|
+|..............................|...|.......|LLLLLLL............|...........|
+|..............................|...|.......|LLLLLLLL...........|...........|
+|..............................|...-----------------------------------}----|
+|..............................|...+....................|}}}}}}}}}}}}|}|--}|
+|---------------------------------+|....................|}}}}}}}}}}}}|}|-}}|
+|TTTT+.............................|....................|..........}}.}}}}}|
+|-+--|.............................|....................|.}}}}}}}.}}.}.}}}}|
+|....|.............................|....................|.}}}}}}}.}}.}..}}}|
+|....|.............................|....................|}.}}}}}}..}.}...}}|
+|....|.............................|....................|}}.}}}}}}}..-----}|
+|....|.............................|....................|}}}.}}}}}}}.|...}}|
+|....|.............................|....................|}}}}..}}}}}}|..}}}|
+|....|.............................|....................|......}}}}}}|.}}}}|
+|....|.............................|....................+......}}}}}}|}}}}}|
+----------------------------------------------------------------------------
+ENDMAP
+RANDOM_PLACES:(36,19),(55,09)
+
+NON_DIGGABLE:(00,00,75,20)
+NON_PASSWALL:(00,00,75,20)
+
+BRANCH:(01,01,01,01),(0,0,0,0)
+
+REGION:(01,03,30,09),lit,"angelhall"
+REGION:(36,03,42,07),lit,"cocknest"
+REGION:(64,01,74,07),lit,"humanhall"
+REGION:(36,09,42,19),lit,"randomroom"
+REGION:(43,09,49,19),lit,"randomroom"
+REGION:(50,09,55,19),lit,"randomroom"
+REGION:(06,11,34,19),lit,"insideroom"
+REGION:(01,13,04,19),lit,"random shop"
+REGION:(01,13,04,19),lit,"armory"
+REGION:(01,13,04,19),lit,"temple"
+ALTAR:(01,19),align[0],shrine
+
+CONTAINER:'(',"chest",(16,09)
+OBJECT:'?',"barrhing",contained
+OBJECT:'!',"confusion",contained
+CONTAINER:'(',"chest",(40,05)
+OBJECT:'?',"lava",contained
+OBJECT:'!',"confusion",contained
+CONTAINER:'(',"chest",(74,01)
+OBJECT:'?',"flood",contained
+OBJECT:'!',"confusion",contained
+CONTAINER:'(',"chest",(06,19)
+OBJECT:'?',"growth",contained
+OBJECT:'!',"confusion",contained
+
+MONSTER:'u',"Nightmare",(01,19),asleep
+
+ENGRAVING:random,random,"You ain't getting out of here alive."
+ENGRAVING:random,random,"Think you're halfway through this level? Ha! You better think again."
+ENGRAVING:random,random,"I am watching you fail. --Amy"
+ENGRAVING:random,random,"Your ttyrec will be visible to everyone, so please encounter a glorious YASD!"
+ENGRAVING:random,random,"An enormous ghost appears next to you!"
+ENGRAVING:random,random,"Vecna was here!"
+ENGRAVING:random,random,"Vlad the Impaler was here!"
+ENGRAVING:random,random,"ad aerarium"
+ENGRAVING:random,random,"Nightmare's Gauntlet is by far the hardest Nightmare level variant."
+ENGRAVING:random,random,"The Key of Law is safe and no mere adventurer is gonna get it."
+
+TRAP: "alarm", (10,01)
+TRAP: "board", (11,01)
+TRAP: "alarm", (12,01)
+TRAP: "board", (13,01)
+TRAP: "alarm", (14,01)
+TRAP: "board", (15,01)
+TRAP: "alarm", (16,01)
+TRAP: "board", (17,01)
+TRAP: "alarm", (18,01)
+TRAP: "board", (19,01)
+TRAP: "alarm", (20,01)
+TRAP: "board", (21,01)
+TRAP: "alarm", (22,01)
+TRAP: "board", (23,01)
+TRAP: "alarm", (24,01)
+TRAP: "board", (25,01)
+TRAP: "alarm", (26,01)
+TRAP: "board", (27,01)
+TRAP: "alarm", (28,01)
+TRAP: "board", (29,01)
+TRAP: "alarm", (30,01)
+
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+OBJECT: ')', random, random
+OBJECT: '(', random, random
+
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: 'A', random, random,hostile
+MONSTER: random, random, random
+MONSTER: random, random, random
+MONSTER: random, random, random
+MONSTER: random, random, random
+MONSTER: random, random, random
+MONSTER: random, random, random
+MONSTER: random, random, random
+MONSTER: random, random, random
+MONSTER: random, random, random
+MONSTER: random, random, random
+
+DOOR:locked,(02,12)
+DOOR:locked,(05,11)
+DOOR:locked,(34,10)
+DOOR:locked,(36,02)
+DOOR:locked,(35,09),"The Gauntlet Key"
+DOOR:locked,(56,19)
+DOOR:locked,(63,04)
+
+OBJECT:'(',"skeleton key",place[0],blessed,0,"The Gauntlet Key"

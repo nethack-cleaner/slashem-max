@@ -1,0 +1,465 @@
+#
+# The guild of disgruntled adventurers.
+#
+
+LEVEL: "guild-1"
+
+ROOM: "playercentral", lit, random, random, (15,10)
+NAME: "central"
+# stuff for them to use on you...
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, up
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, down
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+RANDOM_CORRIDORS
+
+LEVEL: "guild-2"
+
+ROOM: "playercentral", lit, random, random, (25,10)
+NAME: "central"
+# stuff for them to use on you...
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, up
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, down
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+RANDOM_CORRIDORS
+
+LEVEL: "guild-3"
+
+ROOM: "playercentral", lit, random, random, (15,15)
+NAME: "central"
+# stuff for them to use on you...
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, up
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, down
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+RANDOM_CORRIDORS
+
+LEVEL: "guild-4"
+
+ROOM: "humanhall", lit, random, random, (15,10)
+NAME: "central"
+# stuff for them to use on you...
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, up
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, down
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+RANDOM_CORRIDORS
+
+LEVEL: "guild-5"
+
+ROOM: "playercentral", lit, random, random, (15,10)
+NAME: "central"
+# stuff for them to use on you...
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, up
+OBJECT: random,random,random
+
+ROOM: "tenshall" , random, random, random, random
+STAIR: random, down
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "humanhall" , random, random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+
+ROOM: "humanhall" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "humanhall" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+RANDOM_CORRIDORS
+
+LEVEL: "guild-6"
+
+ROOM: "playercentral", lit, random, random, (15,10)
+NAME: "central"
+# stuff for them to use on you...
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, up
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, down
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+RANDOM_CORRIDORS
+
+LEVEL: "guild-7"
+
+ROOM: "playercentral", lit, random, random, (15,10)
+NAME: "central"
+# stuff for them to use on you...
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, up
+OBJECT: random,random,random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, down
+OBJECT: random, random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+
+ROOM: "ordinary" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+
+RANDOM_CORRIDORS
+
+LEVEL: "guild-8"
+
+ROOM: "playercentral", lit, random, random, (15,10)
+NAME: "central"
+# stuff for them to use on you...
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '?',random,random
+OBJECT: '/',random,random
+OBJECT: '/',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: '!',random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+OBJECT: random,random,random
+
+ROOM: "ordinary" , random, random, random, random
+STAIR: random, up
+OBJECT: random,random,random
+
+ROOM: "randomroom" , random, random, random, random
+STAIR: random, down
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "randomroom" , random, random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+
+ROOM: "randomroom" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+ROOM: "randomroom" , random, random, random, random
+OBJECT: random, random, random
+TRAP: random, random
+
+RANDOM_CORRIDORS

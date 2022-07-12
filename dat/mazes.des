@@ -1,0 +1,2860 @@
+#       SCCS Id: @(#)mall-2.des  3.4     1993/02/23
+#       Copyright (c) 1989 by Jean-Christophe Collet
+#       Copyright (c) 1991 by M. Stephenson
+# NetHack may be freely redistributed.  See license for details.
+#
+
+MAZE: "mazes-1" , random
+GEOMETRY:center,center
+MAP
+-------
+|.....|
+|.....|
+B.....B
+|.....|
+|.....|
+-------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(01,01,05,05),lit,"ordinary",filled,true
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZE: "mazes-2" , random
+GEOMETRY:center,center
+MAP
+-------
+|.....|
+|.....|
++.....+
+|.....|
+|.....|
+-------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(01,01,05,05),lit,"randomroom",filled,true
+
+DOOR:closed,(00,03)
+DOOR:closed,(06,03)
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZE: "mazes-3" , random
+GEOMETRY:center,center
+MAP
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
+B.....B                  B.....B
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"ordinary",filled,true
+
+REGION:(26,01,30,05),lit,"ordinary",filled,true
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZEWALK:(25,03),west
+MAZEWALK:(31,03),east
+
+MAZE: "mazes-4" , random
+GEOMETRY:center,center
+MAP
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....+                  +.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"randomroom",filled,true
+
+REGION:(26,01,30,05),lit,"randomroom",filled,true
+
+DOOR:closed,(00,03)
+DOOR:closed,(06,03)
+
+DOOR:closed,(25,03)
+DOOR:closed,(31,03)
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZEWALK:(25,03),west
+MAZEWALK:(31,03),east
+
+MAZE: "mazes-5" , random
+GEOMETRY:center,center
+MAP
+-------                  -------                  -------
+|.....|                  |.....|                  |.....|
+|.....|                  |.....|                  |.....|
+B.....B                  B.....B                  B.....B
+|.....|                  |.....|                  |.....|
+|.....|                  |.....|                  |.....|
+-------                  -------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"ordinary",filled,true
+
+REGION:(26,01,30,05),lit,"ordinary",filled,true
+
+REGION:(51,01,55,05),lit,"ordinary",filled,true
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZEWALK:(25,03),west
+MAZEWALK:(31,03),east
+
+MAZEWALK:(50,03),west
+MAZEWALK:(56,03),east
+
+MAZE: "mazes-6" , random
+GEOMETRY:center,center
+MAP
+-------                  -------                  -------
+|.....|                  |.....|                  |.....|
+|.....|                  |.....|                  |.....|
++.....+                  +.....+                  +.....+
+|.....|                  |.....|                  |.....|
+|.....|                  |.....|                  |.....|
+-------                  -------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"randomroom",filled,true
+
+REGION:(26,01,30,05),lit,"randomroom",filled,true
+
+REGION:(51,01,55,05),lit,"randomroom",filled,true
+
+DOOR:closed,(00,03)
+DOOR:closed,(06,03)
+
+DOOR:closed,(25,03)
+DOOR:closed,(31,03)
+
+DOOR:closed,(50,03)
+DOOR:closed,(56,03)
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZEWALK:(25,03),west
+MAZEWALK:(31,03),east
+
+MAZEWALK:(50,03),west
+MAZEWALK:(56,03),east
+
+MAZE: "mazes-7" , random
+GEOMETRY:center,center
+MAP
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
+B.....B                  B.....B
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+
+
+
+
+
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
+B.....B                  B.....B
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"ordinary",filled,true
+
+REGION:(26,01,30,05),lit,"ordinary",filled,true
+
+REGION:(01,13,05,17),lit,"ordinary",filled,true
+
+REGION:(26,13,30,17),lit,"ordinary",filled,true
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZEWALK:(25,03),west
+MAZEWALK:(31,03),east
+
+MAZEWALK:(00,15),west
+MAZEWALK:(06,15),east
+
+MAZEWALK:(25,15),west
+MAZEWALK:(31,15),east
+
+MAZE: "mazes-8" , random
+GEOMETRY:center,center
+MAP
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....+                  +.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+
+
+
+
+
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....+                  +.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"randomroom",filled,true
+
+REGION:(26,01,30,05),lit,"randomroom",filled,true
+
+REGION:(01,13,05,17),lit,"randomroom",filled,true
+
+REGION:(26,13,30,17),lit,"randomroom",filled,true
+
+DOOR:closed,(00,03)
+DOOR:closed,(06,03)
+
+DOOR:closed,(25,03)
+DOOR:closed,(31,03)
+
+DOOR:closed,(00,15)
+DOOR:closed,(06,15)
+
+DOOR:closed,(25,15)
+DOOR:closed,(31,15)
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZEWALK:(25,03),west
+MAZEWALK:(31,03),east
+
+MAZEWALK:(00,15),west
+MAZEWALK:(06,15),east
+
+MAZEWALK:(25,15),west
+MAZEWALK:(31,15),east
+
+MAZE: "mazes-9" , random
+GEOMETRY:center,center
+MAP
+-------                                    -------
+|.....|                                    |.....|
+|.....|                                    |.....|
+B.....B                                    B.....B
+|.....|                                    |.....|
+|.....|                                    |.....|
+-------               -------              -------
+                      |.....|
+                      |.....|
+                      B.....B
+                      |.....|
+                      |.....|
+-------               -------              -------
+|.....|                                    |.....|
+|.....|                                    |.....|
+B.....B                                    B.....B
+|.....|                                    |.....|
+|.....|                                    |.....|
+-------                                    -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"ordinary",filled,true
+
+REGION:(44,01,48,05),lit,"ordinary",filled,true
+
+REGION:(01,13,05,17),lit,"ordinary",filled,true
+
+REGION:(44,13,48,17),lit,"ordinary",filled,true
+
+REGION:(23,07,27,11),lit,"ordinary",filled,true
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZEWALK:(43,03),west
+MAZEWALK:(49,03),east
+
+MAZEWALK:(00,15),west
+MAZEWALK:(06,15),east
+
+MAZEWALK:(43,15),west
+MAZEWALK:(49,15),east
+
+MAZEWALK:(22,09),west
+MAZEWALK:(28,09),east
+
+MAZE: "mazes-10" , random
+GEOMETRY:center,center
+MAP
+-------                                    -------
+|.....|                                    |.....|
+|.....|                                    |.....|
++.....+                                    +.....+
+|.....|                                    |.....|
+|.....|                                    |.....|
+-------               -------              -------
+                      |.....|
+                      |.....|
+                      +.....+
+                      |.....|
+                      |.....|
+-------               -------              -------
+|.....|                                    |.....|
+|.....|                                    |.....|
++.....+                                    +.....+
+|.....|                                    |.....|
+|.....|                                    |.....|
+-------                                    -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"randomroom",filled,true
+
+REGION:(44,01,48,05),lit,"randomroom",filled,true
+
+REGION:(01,13,05,17),lit,"randomroom",filled,true
+
+REGION:(44,13,48,17),lit,"randomroom",filled,true
+
+REGION:(23,07,27,11),lit,"randomroom",filled,true
+
+DOOR:closed,(00,03)
+DOOR:closed,(06,03)
+
+DOOR:closed,(43,03)
+DOOR:closed,(49,03)
+
+DOOR:closed,(00,15)
+DOOR:closed,(06,15)
+
+DOOR:closed,(43,15)
+DOOR:closed,(49,15)
+
+DOOR:closed,(22,09)
+DOOR:closed,(28,09)
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZEWALK:(43,03),west
+MAZEWALK:(49,03),east
+
+MAZEWALK:(00,15),west
+MAZEWALK:(06,15),east
+
+MAZEWALK:(43,15),west
+MAZEWALK:(49,15),east
+
+MAZEWALK:(22,09),west
+MAZEWALK:(28,09),east
+
+MAZE: "mazes-11" , random
+GEOMETRY:center,center
+MAP
+-------
+|.....|
+|.....|
+|.....+
+|.....|
+|.....|
+-------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(01,01,05,05),lit,"random shop"
+
+DOOR:closed,(06,03)
+
+MAZEWALK:(06,03),east
+
+MAZE: "mazes-12" , random
+GEOMETRY:center,center
+MAP
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....|                  |.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"random shop"
+
+REGION:(26,01,30,05),lit,"random shop"
+
+DOOR:closed,(00,03)
+DOOR:closed,(31,03)
+
+MAZEWALK:(00,03),west
+MAZEWALK:(31,03),east
+
+MAZE: "mazes-13" , random
+GEOMETRY:center,center
+MAP
+-------                  -------                  -------
+|.....|                  |.....|                  |.....|
+|.....|                  |.....|                  |.....|
++.....|                  +.....|                  |.....+
+|.....|                  |.....|                  |.....|
+|.....|                  |.....|                  |.....|
+-------                  -------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"random shop"
+
+REGION:(26,01,30,05),lit,"random shop"
+
+REGION:(51,01,55,05),lit,"random shop"
+
+DOOR:closed,(00,03)
+
+DOOR:closed,(25,03)
+
+DOOR:closed,(56,03)
+
+MAZEWALK:(00,03),west
+
+MAZEWALK:(25,03),west
+
+MAZEWALK:(56,03),east
+
+MAZE: "mazes-14" , random
+GEOMETRY:center,center
+MAP
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....|                  |.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+
+
+
+
+
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....|                  |.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"random shop"
+
+REGION:(26,01,30,05),lit,"random shop"
+
+REGION:(01,13,05,17),lit,"random shop"
+
+REGION:(26,13,30,17),lit,"random shop"
+
+DOOR:closed,(00,03)
+
+DOOR:closed,(31,03)
+
+DOOR:closed,(00,15)
+
+DOOR:closed,(31,15)
+
+MAZEWALK:(00,03),west
+
+MAZEWALK:(31,03),east
+
+MAZEWALK:(00,15),west
+
+MAZEWALK:(31,15),east
+
+MAZE: "mazes-15" , random
+GEOMETRY:center,center
+MAP
+-------                                    -------
+|.....|                                    |.....|
+|.....|                                    |.....|
++.....|                                    |.....+
+|.....|                                    |.....|
+|.....|                                    |.....|
+-------               -------              -------
+                      |.....|
+                      |.....|
+                      +.....|
+                      |.....|
+                      |.....|
+-------               -------              -------
+|.....|                                    |.....|
+|.....|                                    |.....|
++.....|                                    |.....+
+|.....|                                    |.....|
+|.....|                                    |.....|
+-------                                    -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"random shop"
+
+REGION:(44,01,48,05),lit,"random shop"
+
+REGION:(01,13,05,17),lit,"random shop"
+
+REGION:(44,13,48,17),lit,"random shop"
+
+REGION:(23,07,27,11),lit,"random shop"
+
+DOOR:closed,(00,03)
+
+DOOR:closed,(49,03)
+
+DOOR:closed,(00,15)
+
+DOOR:closed,(49,15)
+
+DOOR:closed,(22,09)
+
+MAZEWALK:(00,03),west
+
+MAZEWALK:(49,03),east
+
+MAZEWALK:(00,15),west
+
+MAZEWALK:(49,15),east
+
+MAZEWALK:(22,09),west
+
+MAZE: "mazes-16" , random
+GEOMETRY:center,center
+MAP
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....|                  |.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"random shop"
+
+REGION:(26,01,30,05),lit,"randomroom"
+
+DOOR:closed,(00,03)
+DOOR:closed,(31,03)
+
+MAZEWALK:(00,03),west
+MAZEWALK:(31,03),east
+
+MAZE: "mazes-17" , random
+GEOMETRY:center,center
+MAP
+-------                  -------                  -------
+|.....|                  |.....|                  |.....|
+|.....|                  |.....|                  |.....|
++.....|                  +.....|                  |.....+
+|.....|                  |.....|                  |.....|
+|.....|                  |.....|                  |.....|
+-------                  -------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"randomroom"
+
+REGION:(26,01,30,05),lit,"randomroom"
+
+REGION:(51,01,55,05),lit,"random shop"
+
+DOOR:closed,(00,03)
+
+DOOR:closed,(25,03)
+
+DOOR:closed,(56,03)
+
+MAZEWALK:(00,03),west
+
+MAZEWALK:(25,03),west
+
+MAZEWALK:(56,03),east
+
+MAZE: "mazes-18" , random
+GEOMETRY:center,center
+MAP
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....|                  |.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+
+
+
+
+
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....|                  |.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"randomroom"
+
+REGION:(26,01,30,05),lit,"randomroom"
+
+REGION:(01,13,05,17),lit,"random shop"
+
+REGION:(26,13,30,17),lit,"randomroom"
+
+DOOR:closed,(00,03)
+
+DOOR:closed,(31,03)
+
+DOOR:closed,(00,15)
+
+DOOR:closed,(31,15)
+
+MAZEWALK:(00,03),west
+
+MAZEWALK:(31,03),east
+
+MAZEWALK:(00,15),west
+
+MAZEWALK:(31,15),east
+
+MAZE: "mazes-19" , random
+GEOMETRY:center,center
+MAP
+-------                                    -------
+|.....|                                    |.....|
+|.....|                                    |.....|
++.....|                                    |.....+
+|.....|                                    |.....|
+|.....|                                    |.....|
+-------               -------              -------
+                      |.....|
+                      |.....|
+                      +.....|
+                      |.....|
+                      |.....|
+-------               -------              -------
+|.....|                                    |.....|
+|.....|                                    |.....|
++.....|                                    |.....+
+|.....|                                    |.....|
+|.....|                                    |.....|
+-------                                    -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"randomroom"
+
+REGION:(44,01,48,05),lit,"randomroom"
+
+REGION:(01,13,05,17),lit,"randomroom"
+
+REGION:(44,13,48,17),lit,"randomroom"
+
+REGION:(23,07,27,11),lit,"random shop"
+
+DOOR:closed,(00,03)
+
+DOOR:closed,(49,03)
+
+DOOR:closed,(00,15)
+
+DOOR:closed,(49,15)
+
+DOOR:closed,(22,09)
+
+MAZEWALK:(00,03),west
+
+MAZEWALK:(49,03),east
+
+MAZEWALK:(00,15),west
+
+MAZEWALK:(49,15),east
+
+MAZEWALK:(22,09),west
+
+MAZE: "mazes-20" , random
+GEOMETRY:center,center
+MAP
+----------
+|........|
+|........|
+|........|
+B........B
+|........|
+|........|
+|........|
+|........|
+----------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,08,08),lit,"ordinary",filled,true
+
+MAZEWALK:(00,04),west
+MAZEWALK:(09,04),east
+
+MAZE: "mazes-21" , random
+GEOMETRY:center,center
+MAP
+----------
+|........|
+|........|
+|........|
++........+
+|........|
+|........|
+|........|
+|........|
+----------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,08,08),lit,"randomroom",filled,true
+
+DOOR:closed,(00,04)
+DOOR:closed,(09,04)
+
+MAZEWALK:(00,04),west
+MAZEWALK:(09,04),east
+
+MAZE: "mazes-22" , random
+GEOMETRY:center,center
+MAP
+----------                                      ----------
+|........|                                      |........|
+|........|                                      |........|
+|........|                                      |........|
+B........B                                      B........B
+|........|                                      |........|
+|........|                                      |........|
+|........|                                      |........|
+|........|                                      |........|
+----------                                      ----------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+MAZEWALK:(00,04),west
+MAZEWALK:(09,04),east
+
+MAZEWALK:(48,04),west
+MAZEWALK:(57,04),east
+
+REGION:(01,01,08,08),lit,"ordinary",filled,true
+
+REGION:(49,01,56,08),lit,"ordinary",filled,true
+
+MAZE: "mazes-23" , random
+GEOMETRY:center,center
+MAP
+----------                                      ----------
+|........|                                      |........|
+|........|                                      |........|
+|........|                                      |........|
++........+                                      +........+
+|........|                                      |........|
+|........|                                      |........|
+|........|                                      |........|
+|........|                                      |........|
+----------                                      ----------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+MAZEWALK:(00,04),west
+MAZEWALK:(09,04),east
+
+MAZEWALK:(48,04),west
+MAZEWALK:(57,04),east
+
+REGION:(01,01,08,08),lit,"randomroom",filled,true
+
+REGION:(49,01,56,08),lit,"randomroom",filled,true
+
+DOOR:closed,(48,04)
+DOOR:closed,(57,04)
+
+DOOR:closed,(00,04)
+DOOR:closed,(09,04)
+
+MAZE: "mazes-24" , random
+GEOMETRY:center,center
+MAP
+----------
+|........|
+|........|
+|........|
++........|
+|........|
+|........|
+|........|
+|........|
+----------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,08,08),lit,"random shop"
+
+DOOR:closed,(00,04)
+
+MAZEWALK:(00,04),west
+
+MAZE: "mazes-25" , random
+GEOMETRY:center,center
+MAP
+----------                                      ----------
+|........|                                      |........|
+|........|                                      |........|
+|........|                                      |........|
++........|                                      +........+
+|........|                                      |........|
+|........|                                      |........|
+|........|                                      |........|
+|........|                                      |........|
+----------                                      ----------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+MAZEWALK:(00,04),west
+
+MAZEWALK:(48,04),west
+MAZEWALK:(57,04),east
+
+REGION:(01,01,08,08),lit,"random shop"
+
+REGION:(49,01,56,08),lit,"randomroom",filled,true
+
+DOOR:closed,(48,04)
+DOOR:closed,(57,04)
+
+DOOR:closed,(00,04)
+
+MAZE: "mazes-26" , random
+GEOMETRY:center,center
+MAP
+-------------------------
+|.......................|
+|.......................|
+|.......................|
+|.......................|
+|.......................|
++.......................+
+|.......................|
+|.......................|
+|.......................|
+|.......................|
+|.......................|
+|.......................|
+-------------------------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,23,12),lit,"randomroom",filled,true
+
+DOOR:closed,(00,06)
+DOOR:closed,(24,06)
+
+MAZEWALK:(00,06),west
+MAZEWALK:(24,06),east
+
+MAZE: "mazes-27" , random
+GEOMETRY:center,center
+MAP
+-------------------------
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
++...........|...........+
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+-------------------------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,11,12),lit,"randomroom",filled,true
+REGION:(13,01,23,12),lit,"random shop"
+
+DOOR:closed,(00,06)
+DOOR:closed,(24,06)
+
+MAZEWALK:(00,06),west
+MAZEWALK:(24,06),east
+
+MAZE: "mazes-28" , random
+GEOMETRY:center,center
+MAP
+-------------------------
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
++...........+...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+-------------------------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,11,12),lit,"randomroom",filled,true
+REGION:(13,01,23,12),lit,"random shop"
+
+DOOR:closed,(00,06)
+DOOR:closed,(12,06)
+
+MAZEWALK:(00,06),west
+
+MAZE: "mazes-29" , random
+GEOMETRY:center,center
+MAP
+      -------
+   ----.....----
+ |--...........--|
+|-...............-|
++.................+
+|-...............-|
+ |--...........--|
+   ----.....----
+      -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(09,04,09,04),lit,"randomroom",filled,true
+
+DOOR:closed,(00,04)
+DOOR:closed,(18,04)
+
+MAZEWALK:(00,04),west
+MAZEWALK:(18,04),east
+
+MAZE: "mazes-30" , random
+GEOMETRY:center,center
+MAP
+      -------
+   ----.....----
+ |--...........--|
+|-...............-|
++.................|
+|-...............-|
+ |--...........--|
+   ----.....----
+      -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(09,04,09,04),lit,"ordinary"
+
+DOOR:closed,(00,04)
+
+MAZEWALK:(00,04),west
+
+MAZE: "mazes-31" , random
+GEOMETRY:center,center
+MAP
+---------------------------------------------------------
+|.....|..................|.....|..................|.....|
+|.....|..................|.....|..................|.....|
++.....+..................+.....+..................+.....+
+|.....|..................|.....|..................|.....|
+|.....|..................|.....|..................|.....|
+---------------------------------------------------------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,05),lit,"randomroom",filled,true
+
+REGION:(07,01,24,05),lit,"randomroom",filled,true
+
+REGION:(26,01,30,05),lit,"randomroom",filled,true
+
+REGION:(32,01,49,05),lit,"randomroom",filled,true
+
+REGION:(51,01,55,05),lit,"randomroom",filled,true
+
+DOOR:closed,(00,03)
+DOOR:closed,(06,03)
+
+DOOR:closed,(25,03)
+DOOR:closed,(31,03)
+
+DOOR:closed,(50,03)
+DOOR:closed,(56,03)
+
+MAZEWALK:(00,03),west
+
+MAZEWALK:(56,03),east
+
+MAZE: "mazes-32" , random
+GEOMETRY:center,center
+MAP
+---------------------------------------------------------
+|.......................................................|
+|.......................................................|
++.......................................................+
+|.......................................................|
+|.......................................................|
+---------------------------------------------------------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,55,05),lit,"randomroom",filled,true
+
+DOOR:closed,(00,03)
+
+DOOR:closed,(56,03)
+
+MAZEWALK:(00,03),west
+
+MAZEWALK:(56,03),east
+
+MAZE: "mazes-33" , random
+GEOMETRY:center,center
+MAP
+-------                  -------
+|.....|                  |.....|
+|.....|                  |.....|
++.....+                  +.....+
+|.....|                  |.....|
+|.....|                  |.....|
+|.....|                  |.....|
+|.....|                  |.....|
+|.....|                  |.....|
+|.....|                  |.....|
+|.....|                  |.....|
+|.....|                  |.....|
+|.....|                  |.....|
+|.....|                  |.....|
+|.....|                  |.....|
++.....+                  +.....+
+|.....|                  |.....|
+|.....|                  |.....|
+-------                  -------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,17),lit,"randomroom",filled,true
+
+REGION:(26,01,30,17),lit,"randomroom",filled,true
+
+DOOR:closed,(00,03)
+DOOR:closed,(06,03)
+
+DOOR:closed,(25,03)
+DOOR:closed,(31,03)
+
+DOOR:closed,(00,15)
+DOOR:closed,(06,15)
+
+DOOR:closed,(25,15)
+DOOR:closed,(31,15)
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZEWALK:(25,03),west
+MAZEWALK:(31,03),east
+
+MAZEWALK:(00,15),west
+MAZEWALK:(06,15),east
+
+MAZEWALK:(25,15),west
+MAZEWALK:(31,15),east
+
+MAZE: "mazes-34" , random
+GEOMETRY:center,center
+MAP
+--------------------------------
+|.....|..................|.....|
+|.....|..................|.....|
++.....+..................+.....+
+|.....|..................|.....|
+|.....|..................|.....|
+|.....|..................|.....|
+|.....|..................|.....|
+|.....|..................|.....|
+|.....|..................|.....|
+|.....|..................|.....|
+|.....|..................|.....|
+|.....|..................|.....|
+|.....|..................|.....|
+|.....|..................|.....|
++.....+..................+.....+
+|.....|..................|.....|
+|.....|..................|.....|
+--------------------------------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,05,17),lit,"randomroom",filled,true
+
+REGION:(07,01,24,17),lit,"random shop"
+
+REGION:(26,01,30,17),lit,"randomroom",filled,true
+
+DOOR:closed,(00,03)
+DOOR:closed,(06,03)
+
+DOOR:closed,(25,03)
+DOOR:closed,(31,03)
+
+DOOR:closed,(00,15)
+DOOR:closed,(06,15)
+
+DOOR:closed,(25,15)
+DOOR:closed,(31,15)
+
+MAZEWALK:(00,03),west
+
+MAZEWALK:(31,03),east
+
+MAZEWALK:(00,15),west
+
+MAZEWALK:(31,15),east
+
+MAZE: "mazes-35" , random
+GEOMETRY:center,center
+MAP
+BBBB                        BBBB
+B..BB                      BB..B
+B...BB                    BB...B
+BB...BBB                BBB...BB
+ BB....BB              BB....BB
+  BB....BB            BB....BB
+   BB....BBBBBBBBBBBBBB....BB
+    BB....................BB
+     BB..................BB
+      BBBB............BBBB
+     BB..................BB
+    BB....................BB
+   BB....BBBBBBBBBBBBBB....BB
+  BB....BB            BB....BB
+ BB....BB              BB....BB
+BB...BBB                BBB...BB
+B...BB                    BB...B
+B..BB                      BB..B
+BBBB                        BBBB
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(15,09,15,09),lit,"randomroom",filled,true
+
+MAZEWALK:(05,09),west
+
+MAZEWALK:(26,09),east
+
+MAZE: "mazes-36" , random
+GEOMETRY:center,center
+MAP
+BBBB      ------------      BBBB
+B..BB     |..........|     BB..B
+B...BB    |..........|    BB...B
+BB...BBB  |..........|  BBB...BB
+ BB....BB |..........| BB....BB
+  BB....BB|..........|BB....BB
+   BB....B------+-----B....BB
+    BB....................BB
+     BB..................BB
+      BBBB............BBBB
+     BB..................BB
+    BB....................BB
+   BB....BBBBBBBBBBBBBB....BB
+  BB....BB            BB....BB
+ BB....BB              BB....BB
+BB...BBB                BBB...BB
+B...BB                    BB...B
+B..BB                      BB..B
+BBBB                        BBBB
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(15,09,15,09),lit,"randomroom",filled,true
+
+REGION:(11,01,20,05),lit,"random shop"
+
+DOOR:closed,(16,06)
+
+MAZEWALK:(05,09),west
+
+MAZEWALK:(26,09),east
+
+MAZE: "mazes-37" , random
+GEOMETRY:center,center
+MAP
+-----+-------------+-----
+|...........|...........|
+|...........|...........|
+|...........|...........|
++...........+...........+
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
+-----+-------------+-----
+|...........|...........|
+|...........|...........|
+|...........|...........|
+|...........|...........|
++...........+...........+
+|...........|...........|
+|...........|...........|
+|...........|...........|
+-----+-------------+-----
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,11,08),lit,"randomroom",filled,true
+
+REGION:(01,10,11,17),lit,"randomroom",filled,true
+
+REGION:(13,01,23,08),lit,"randomroom",filled,true
+
+REGION:(13,10,23,17),lit,"randomroom",filled,true
+
+DOOR:closed,(00,04)
+DOOR:closed,(12,04)
+DOOR:closed,(24,04)
+DOOR:closed,(00,14)
+DOOR:closed,(12,14)
+DOOR:closed,(24,14)
+DOOR:closed,(05,00)
+DOOR:closed,(05,09)
+DOOR:closed,(05,18)
+DOOR:closed,(19,00)
+DOOR:closed,(19,09)
+DOOR:closed,(19,18)
+
+MAZEWALK:(00,04),west
+MAZEWALK:(24,04),east
+MAZEWALK:(00,14),west
+MAZEWALK:(24,14),east
+
+MAZE: "mazes-38" , random
+GEOMETRY:center,center
+MAP
+-----+-------------+---------+-------------+-----
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
++...........+...........+...........+...........+
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
+-----+-------------+---------+-------------+-----
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
++...........+...........+...........+...........+
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
+|...........|...........|...........|...........|
+-----+-------------+---------+-------------+-----
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,11,08),lit,"randomroom",filled,true
+
+REGION:(01,10,11,17),lit,"randomroom",filled,true
+
+REGION:(13,01,23,08),lit,"ordinary",filled,true
+
+REGION:(13,10,23,17),lit,"randomroom",filled,true
+
+REGION:(25,01,35,08),lit,"randomroom",filled,true
+
+REGION:(25,10,35,17),lit,"ordinary",filled,true
+
+REGION:(37,01,47,08),lit,"randomroom",filled,true
+
+REGION:(37,10,47,17),lit,"randomroom",filled,true
+
+DOOR:closed,(00,04)
+DOOR:closed,(12,04)
+DOOR:closed,(24,04)
+DOOR:closed,(00,14)
+DOOR:closed,(12,14)
+DOOR:closed,(24,14)
+DOOR:closed,(05,00)
+DOOR:closed,(05,09)
+DOOR:closed,(05,18)
+DOOR:closed,(19,00)
+DOOR:closed,(19,09)
+DOOR:closed,(19,18)
+
+DOOR:closed,(36,04)
+DOOR:closed,(48,04)
+DOOR:closed,(36,14)
+DOOR:closed,(48,14)
+DOOR:closed,(29,00)
+DOOR:closed,(29,09)
+DOOR:closed,(29,18)
+DOOR:closed,(43,00)
+DOOR:closed,(43,09)
+DOOR:closed,(43,18)
+
+MAZEWALK:(00,04),west
+MAZEWALK:(48,04),east
+MAZEWALK:(00,14),west
+MAZEWALK:(48,14),east
+
+MAZE: "mazes-39" , random
+GEOMETRY:center,center
+MAP
+-----+-------------+---------+-------------+---------+-------------+-----
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
++...........+...........+...........+...........+...........+...........+
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
+-----+-------------+---------+-------------+---------+-------------+-----
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
++...........+...........+...........+...........+...........+...........+
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
+|...........|...........|...........|...........|...........|...........|
+-----+-------------+---------+-------------+---------+-------------+-----
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(01,01,11,08),lit,"ordinary",filled,true
+
+REGION:(01,10,11,17),lit,"randomroom",filled,true
+
+REGION:(13,01,23,08),lit,"randomroom",filled,true
+
+REGION:(13,10,23,17),lit,"ordinary",filled,true
+
+REGION:(25,01,35,08),lit,"ordinary",filled,true
+
+REGION:(25,10,35,17),lit,"randomroom",filled,true
+
+REGION:(37,01,47,08),lit,"randomroom",filled,true
+
+REGION:(37,10,47,17),lit,"ordinary",filled,true
+
+REGION:(49,01,59,08),lit,"ordinary",filled,true
+
+REGION:(49,10,59,17),lit,"randomroom",filled,true
+
+REGION:(61,01,69,08),lit,"randomroom",filled,true
+
+REGION:(61,10,69,17),lit,"ordinary",filled,true
+
+DOOR:closed,(00,04)
+DOOR:closed,(12,04)
+DOOR:closed,(24,04)
+DOOR:closed,(00,14)
+DOOR:closed,(12,14)
+DOOR:closed,(24,14)
+DOOR:closed,(05,00)
+DOOR:closed,(05,09)
+DOOR:closed,(05,18)
+DOOR:closed,(19,00)
+DOOR:closed,(19,09)
+DOOR:closed,(19,18)
+
+DOOR:closed,(36,04)
+DOOR:closed,(48,04)
+DOOR:closed,(36,14)
+DOOR:closed,(48,14)
+DOOR:closed,(29,00)
+DOOR:closed,(29,09)
+DOOR:closed,(29,18)
+DOOR:closed,(43,00)
+DOOR:closed,(43,09)
+DOOR:closed,(43,18)
+
+DOOR:closed,(60,04)
+DOOR:closed,(72,04)
+DOOR:closed,(60,14)
+DOOR:closed,(72,14)
+DOOR:closed,(53,00)
+DOOR:closed,(53,09)
+DOOR:closed,(53,18)
+DOOR:closed,(67,00)
+DOOR:closed,(67,09)
+DOOR:closed,(67,18)
+
+MAZEWALK:(00,04),west
+MAZEWALK:(72,04),east
+MAZEWALK:(00,14),west
+MAZEWALK:(72,14),east
+
+MAZE: "mazes-40" , random
+GEOMETRY:center,center
+MAP
+...........................................................................
+.-------------+-----------+-----------------------------------+-----------.
+.|...........|...........|...........|...........|...........|...........|.
+.|...........|...........|...........|...........|...........|...........|.
+.-----------+-----------------------------------+-----------+-------------.
+.B.......................................................................B.
+.-----------+-----------------------------------+-----------+-------------.
+.|...........|...........|...........|...........|...........|...........|.
+.|...........|...........|...........|...........|...........|...........|.
+.-------------+-----------+-----------------------------------+-----------.
+.B.......................................................................B.
+.-------------+-----------+-----------------------------------+-----------.
+.|...........|...........|...........|...........|...........|...........|.
+.|...........|...........|...........|...........|...........|...........|.
+.-----------+-----------------------------------+-----------+-------------.
+.B.......................................................................B.
+.-----------+-----------------------------------+-----------+-------------.
+.|...........|...........|...........|...........|...........|...........|.
+.|...........|...........|...........|...........|...........|...........|.
+.-------------+-----------+-----------------------------------+-----------.
+...........................................................................
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+REGION:(02,05,72,05),lit,"randomroom",filled,true
+REGION:(02,10,72,10),lit,"randomroom",filled,true
+REGION:(02,15,72,15),lit,"randomroom",filled,true
+
+REGION:(02,02,12,03),lit,"random shop"
+REGION:(14,02,24,03),lit,"random shop"
+REGION:(26,02,36,03),lit,"random shop"
+REGION:(38,02,48,03),lit,"random shop"
+REGION:(50,02,60,03),lit,"random shop"
+REGION:(62,02,72,03),lit,"random shop"
+
+REGION:(02,07,12,08),lit,"random shop"
+REGION:(14,07,24,08),lit,"random shop"
+REGION:(26,07,36,08),lit,"random shop"
+REGION:(38,07,48,08),lit,"random shop"
+REGION:(50,07,60,08),lit,"random shop"
+REGION:(62,07,72,08),lit,"random shop"
+
+REGION:(02,12,12,13),lit,"random shop"
+REGION:(14,12,24,13),lit,"random shop"
+REGION:(26,12,36,13),lit,"random shop"
+REGION:(38,12,48,13),lit,"random shop"
+REGION:(50,12,60,13),lit,"random shop"
+REGION:(62,12,72,13),lit,"random shop"
+
+REGION:(02,17,12,18),lit,"random shop"
+REGION:(14,17,24,18),lit,"random shop"
+REGION:(26,17,36,18),lit,"random shop"
+REGION:(38,17,48,18),lit,"random shop"
+REGION:(50,17,60,18),lit,"random shop"
+REGION:(62,17,72,18),lit,"random shop"
+
+DOOR:closed,(12,04)
+DOOR:closed,(12,06)
+DOOR:closed,(12,14)
+DOOR:closed,(12,16)
+
+DOOR:closed,(14,01)
+DOOR:closed,(14,09)
+DOOR:closed,(14,11)
+DOOR:closed,(14,19)
+
+DOOR:closed,(26,01)
+DOOR:closed,(26,09)
+DOOR:closed,(26,11)
+DOOR:closed,(26,19)
+
+DOOR:closed,(48,04)
+DOOR:closed,(48,06)
+DOOR:closed,(48,14)
+DOOR:closed,(48,16)
+
+DOOR:closed,(60,04)
+DOOR:closed,(60,06)
+DOOR:closed,(60,14)
+DOOR:closed,(60,16)
+
+DOOR:closed,(62,01)
+DOOR:closed,(62,09)
+DOOR:closed,(62,11)
+DOOR:closed,(62,19)
+
+MAZEWALK:(00,04),west
+MAZEWALK:(74,04),east
+
+MAZE: "mazes-41",random
+FLAGS: noteleport,hardfloor,nommap,shortsighted
+
+GEOMETRY: right,center
+#0         1         2		   3	     4		   5		 6		   7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0.............----..........................----.............
+1.......-.--.||..||.----..............-.--.||..||.----.......
+2......||..|||....|||..||............||..|||....|||..||......
+3.----.|................|.----..----.|................|.----.
+4||..|||....|||..|||....|||..||||..|||....|||..|||....|||..||
+5|....|||..||.-..-.||..|||....||....|||..||.-..-.||..|||....|
+6|......-.--..----..--.-......||......-.--..----..--.-......|
+7||..||......||..||......||..||||..||......||..||......||..||
+8.-.--.......|....|.......--.-..-.--.......|....|.......--.-.
+9.-.--.......|....|.......--.-..-.--.......|....|.......--.-.
+0||..||......||..||......||..||||..||......||..||......||..||
+1|......-.--..----..--.-......||......-.--..----..--.-......|
+2|....|||..||.-..-.||..|||....||....|||..||.-..-.||..|||....|
+3||..|||....|||..|||....|||..||||..|||....|||..|||....|||..||
+4.----.|................|.----..----.|................|.----.
+5......||..|||....|||..||............||..|||....|||..||......
+6.......----.||..||.--.-..............----.||..||.--.-.......
+7.............----..........................----.............
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2		   3	     4		   5		 6		   7
+
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+MAZE: "mazes-42",random
+FLAGS: hardfloor,shortsighted
+GEOMETRY: center,center
+
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1----------------------------------------------------------------------------
+2----------------------------------------------------------------------------
+3----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+8----------------------------------------------------------------------------
+9------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+0----------------------------------------------------------------------------
+1------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+2----------------------------------------------------------------------------
+3------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+8----------------------------------------------------------------------------
+9----------------------------.-.-.-.-.-.-.-.-.-.-.---------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+
+#Some random objects
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+
+GEOMETRY: center,center
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1---------------------------- - - - - - - - - - - ---------------------------
+2----------------------------------------------------------------------------
+3---------------------- - - - - - - - - - - - - - - - - ---------------------
+4----------------------------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------.-----------------
+7------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+8----------------------------------------------------------------------------
+9------------------ - - - - - - - - - . - - - - - - - - - - -----------------
+0----------------------------------------------------------------------------
+1------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+2----------------------------------------------------------------------------
+3------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+4------------------.---------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------------------------
+7---------------------- - - - - - - - - - - - - - - - - ---------------------
+8----------------------------------------------------------------------------
+9---------------------------- - - - - - - - - - - .--------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+STAIR: (00,00, 75,20), (0,0, 0,0), up
+STAIR: (00,00, 75,20), (0,0, 0,0),down
+
+MAZEWALK:(37,09),east
+
+
+
+
+MAZE: "mazes-43",random
+FLAGS: hardfloor,shortsighted
+GEOMETRY: center,center
+
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1----------------------------------------------------------------------------
+2----------------------------------------------------------------------------
+3----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+8----------------------------------------------------------------------------
+9------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+0----------------------------------------------------------------------------
+1------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+2----------------------------------------------------------------------------
+3------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+8----------------------------------------------------------------------------
+9----------------------------.-.-.-.-.-.-.-.-.-.-.---------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+
+#Some random objects
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+
+GEOMETRY: center,center
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1---------------------------- - - - - - - - - - - ---------------------------
+2----------------------------------------------------------------------------
+3---------------------- - - - - - - - - - - - - - - - - ---------------------
+4----------------------------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------.-----------------
+7------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+8----------------------------------------------------------------------------
+9------------------ - - - - - - - - - . - - - - - - - - - - -----------------
+0----------------------------------------------------------------------------
+1------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+2----------------------------------------------------------------------------
+3------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+4------------------.---------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------------------------
+7---------------------- - - - - - - - - - - - - - - - - ---------------------
+8----------------------------------------------------------------------------
+9---------------------------- - - - - - - - - - - .--------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+STAIR: (00,00, 75,20), (0,0, 0,0), up
+STAIR: (00,00, 75,20), (0,0, 0,0),down
+
+MAZEWALK:(37,09),east
+
+MAZE: "mazes-44",random
+FLAGS: hardfloor,shortsighted
+GEOMETRY: center,center
+
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1----------------------------------------------------------------------------
+2----------------------------------------------------------------------------
+3----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+8----------------------------------------------------------------------------
+9------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+0----------------------------------------------------------------------------
+1------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+2----------------------------------------------------------------------------
+3------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+8----------------------------------------------------------------------------
+9----------------------------.-.-.-.-.-.-.-.-.-.-.---------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+
+#Some random objects
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+
+GEOMETRY: center,center
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1---------------------------- - - - - - - - - - - ---------------------------
+2----------------------------------------------------------------------------
+3---------------------- - - - - - - - - - - - - - - - - ---------------------
+4----------------------------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------.-----------------
+7------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+8----------------------------------------------------------------------------
+9------------------ - - - - - - - - - . - - - - - - - - - - -----------------
+0----------------------------------------------------------------------------
+1------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+2----------------------------------------------------------------------------
+3------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+4------------------.---------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------------------------
+7---------------------- - - - - - - - - - - - - - - - - ---------------------
+8----------------------------------------------------------------------------
+9---------------------------- - - - - - - - - - - .--------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+STAIR: (00,00, 75,20), (0,0, 0,0), up
+STAIR: (00,00, 75,20), (0,0, 0,0),down
+
+MAZEWALK:(37,09),east
+
+MAZE: "mazes-45",random
+FLAGS: hardfloor,shortsighted
+GEOMETRY: center,center
+
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1----------------------------------------------------------------------------
+2----------------------------------------------------------------------------
+3----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+8----------------------------------------------------------------------------
+9------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+0----------------------------------------------------------------------------
+1------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+2----------------------------------------------------------------------------
+3------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+8----------------------------------------------------------------------------
+9----------------------------.-.-.-.-.-.-.-.-.-.-.---------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+
+#Some random objects
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+
+GEOMETRY: center,center
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1---------------------------- - - - - - - - - - - ---------------------------
+2----------------------------------------------------------------------------
+3---------------------- - - - - - - - - - - - - - - - - ---------------------
+4----------------------------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------.-----------------
+7------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+8----------------------------------------------------------------------------
+9------------------ - - - - - - - - - . - - - - - - - - - - -----------------
+0----------------------------------------------------------------------------
+1------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+2----------------------------------------------------------------------------
+3------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+4------------------.---------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------------------------
+7---------------------- - - - - - - - - - - - - - - - - ---------------------
+8----------------------------------------------------------------------------
+9---------------------------- - - - - - - - - - - .--------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+STAIR: (00,00, 75,20), (0,0, 0,0), up
+STAIR: (00,00, 75,20), (0,0, 0,0),down
+
+MAZEWALK:(37,09),east
+
+MAZE: "mazes-46",random
+FLAGS: hardfloor,shortsighted
+GEOMETRY: center,center
+
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1----------------------------------------------------------------------------
+2----------------------------------------------------------------------------
+3----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+8----------------------------------------------------------------------------
+9------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+0----------------------------------------------------------------------------
+1------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+2----------------------------------------------------------------------------
+3------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----------------
+4----------------------------------------------------------------------------
+5--------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-------------------
+6----------------------------------------------------------------------------
+7----------------------.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.---------------------
+8----------------------------------------------------------------------------
+9----------------------------.-.-.-.-.-.-.-.-.-.-.---------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+
+#Some random objects
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+
+GEOMETRY: center,center
+#0         1         2         3         4         5         6         7
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+0----------------------------------------------------------------------------
+1---------------------------- - - - - - - - - - - ---------------------------
+2----------------------------------------------------------------------------
+3---------------------- - - - - - - - - - - - - - - - - ---------------------
+4----------------------------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------.-----------------
+7------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+8----------------------------------------------------------------------------
+9------------------ - - - - - - - - - . - - - - - - - - - - -----------------
+0----------------------------------------------------------------------------
+1------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+2----------------------------------------------------------------------------
+3------------------ - - - - - - - - - - - - - - - - - - - - -----------------
+4------------------.---------------------------------------------------------
+5-------------------- - - - - - - - - - - - - - - - - - - -------------------
+6----------------------------------------------------------------------------
+7---------------------- - - - - - - - - - - - - - - - - ---------------------
+8----------------------------------------------------------------------------
+9---------------------------- - - - - - - - - - - .--------------------------
+0----------------------------------------------------------------------------
+ENDMAP
+#0123456789012345678901234567890123456789012345678901234567890123456789012345
+#0         1         2         3         4         5         6         7
+
+STAIR: (00,00, 75,20), (0,0, 0,0), up
+STAIR: (00,00, 75,20), (0,0, 0,0),down
+
+MAZEWALK:(37,09),east
+
+
+# "LabyrNth" - the final maze level before the Castle, version 1
+MAZE:"mazes-47",'-'
+FLAGS:nommap
+GEOMETRY:center,bottom
+# The "wasted" row and column of walls at x=0 and y=0 are necessary due to
+# MAZEWALK's implementation details (junction coordinates must be even).
+#         1         2         3         4         5         6         7
+#123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+----------------------------------------------------------------------------
+|---------------------------------------------------------------------------
+|| . | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+|-.-----------.---------------------------------------------------------.---
+|| | | | | | | | | | | | . | | | | | | | | . | | | | | | | | | | | | | | | |
+|-----------------.---------------------------------------.-----------------
+|| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+|-----------.-----------------------.---------.-----------------------------
+|| | | | | | | | | | | | | | | | | |.| | | | | | | | | | | | | | | | . . | |
+|---------------------.-------------.------------------------...---|.....|--
+|| | | |...| | | | | | | | | | | ....... | | | | | | | | | | . . | | ... | |
+|---------------------.-------------.------------------------...---|.....|--
+|| | | | | | | | | | | | | | | | | |.| | | | | | | | | | | | | | | | . . | |
+|-----------.-----------------------.---------.-----------------------------
+|| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+|-----------------.---------------------------------------.-----------------
+|| | | | | | | | | | | | . | | | | | | | | . | | | | | | | | | | | | | | | |
+|-.-----------.---------------------------------------------------------.---
+|| . | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+----------------------------------------------------------------------------
+ENDMAP
+#RANDOM_PLACES
+NON_DIGGABLE:(31,07,41,13)
+FOUNTAIN:random
+FOUNTAIN:random
+REGION:(01,01,75,19),lit,"ordinary"
+MAZEWALK:(10,10),east
+#WALLIFY
+STAIR:(08,10),up
+STAIR:(70,10),down
+CONTAINER:'`',"statue",(36,10),uncursed,"human",3,"Theseus"
+OBJECT:')',"mace",contained,random,7
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+#sorry Chris, but this level can appear as early as dlvl2 in slex, which means no minotaur
+MONSTER:'H',random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+
+# "LabyrNth" - the final maze level before the Castle, version 2
+MAZE:"mazes-48",'-'
+FLAGS:nommap
+GEOMETRY:center,bottom
+# The "wasted" row and column of walls at x=0 and y=0 are necessary due to
+# MAZEWALK's implementation details (junction coordinates must be even).
+#         1         2         3         4         5         6         7
+#123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+----------------------------------------------------------------------------
+|---------------------------------------------------------------------------
+|| | . | | | | | | | | | | | | | | | | | | | | | | | | | | | | . . | | | | |
+|-----------------------------.-------------.----------------|.....|--------
+|| | | | | | | | . | | | | | | | | | | | | . . | | | | | | | | ... | | | | |
+|-------------------------.-----------------.----------------|.....|--------
+|| | | | | | | | | . | | | | | | | | | | | | | | | | | | | | | . . | | | | |
+|-----------.-----------------------.---------------------------------------
+|| | | | | | | | | | | | | | | | | |.| | | | | | | | | | | | | | | | | | | |
+|-.-------------------.-------------.---------------...---------------------
+|| | | |...| | | | | | | | | | | ....... | | | | | | | | | | | | | | | | | |
+|-.-------------------.-------------.---------------------------------------
+|| | | | | | | | | | | | | | | | | |.| | | | | | | | | | | | | | | | | | | |
+|-----------.-----------------------.---------------------------------------
+|| | | | | | | | | . | | | | | | | | | | | | | | | | | | | . | | | | | | | |
+|-------------------------.-----------------.------------|...|--------------
+|| | | | | | | | . | | | | | | | | | | | | . . | | | | | | . | | | | | | | |
+|-----------------------------.-------------.----------|.....|------------.-
+|| | . | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | . |
+----------------------------------------------------------------------------
+ENDMAP
+#RANDOM_PLACES
+NON_DIGGABLE:(31,07,41,13)
+FOUNTAIN:random
+FOUNTAIN:random
+REGION:(01,01,75,19),lit,"ordinary"
+MAZEWALK:(10,10),east
+#WALLIFY
+STAIR:(08,10),up
+STAIR:(64,04),down
+CONTAINER:'`',"statue",(36,10),uncursed,"human",3,"Theseus"
+OBJECT:')',"mace",contained,random,7
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+#sorry Chris, but this level can appear as early as dlvl2 in slex, which means no minotaur
+MONSTER:'H',random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+
+
+# "LabyrNth" - the final maze level before the Castle, version 3
+MAZE:"mazes-49",'-'
+FLAGS:nommap
+GEOMETRY:center,bottom
+# The "wasted" row and column of walls at x=0 and y=0 are necessary due to
+# MAZEWALK's implementation details (junction coordinates must be even).
+#         1         2         3         4         5         6         7
+#123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+----------------------------------------------------------------------------
+|---------------------------------------------------------------------------
+|| | . | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | . |
+|-----------------------------.-------------.----------|.....|------------.-
+|| | | | | | | | . | | | | | | | | | | | | . . | | | | | | . | | | | | | | |
+|-------------------------.-----------------.------------|...|--------------
+|| | | | | | | | | . | | | | | | | | | | | | | | | | | | | . | | | | | | | |
+|-----------.-----------------------.---------------------------------------
+|| | | | | | | | | | | | | | | | | |.| | | | | | | | | | | | | | | | | | | |
+|-.-------------------.-------------.---------------------------------------
+|| | | |...| | | | | | | | | | | ....... | | | | | | | | | | | | | | | | | |
+|-.-------------------.-------------.---------------...---------------------
+|| | | | | | | | | | | | | | | | | |.| | | | | | | | | | | | | | | | | | | |
+|-----------.-----------------------.---------------------------------------
+|| | | | | | | | | . | | | | | | | | | | | | | | | | | | | | | . . | | | | |
+|-------------------------.-----------------.----------------|.....|--------
+|| | | | | | | | . | | | | | | | | | | | | . . | | | | | | | | ... | | | | |
+|-----------------------------.-------------.----------------|.....|--------
+|| | . | | | | | | | | | | | | | | | | | | | | | | | | | | | | . . | | | | |
+----------------------------------------------------------------------------
+ENDMAP
+#RANDOM_PLACES
+NON_DIGGABLE:(31,07,41,13)
+FOUNTAIN:random
+FOUNTAIN:random
+REGION:(01,01,75,19),lit,"ordinary"
+MAZEWALK:(10,10),east
+#WALLIFY
+STAIR:(08,10),up
+STAIR:(64,16),down
+CONTAINER:'`',"statue",(36,10),uncursed,"human",3,"Theseus"
+OBJECT:')',"mace",contained,random,7
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+#sorry Chris, but this level can appear as early as dlvl2 in slex, which means no minotaur
+MONSTER:'H',random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+
+MAZE: "mazes-50", random
+GEOMETRY:center,center
+MAP
+-------
+|.....|
+|.....|
+B..p..B
+|.....|
+|.....|
+-------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(01,01,05,05),lit,"ordinary",filled,true
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+
+MAZE: "mazes-51", random
+GEOMETRY:center,center
+MAP
+
+...
+.\.
+...
+
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+MAZEWALK:(00,02),west
+MAZEWALK:(02,02),east
+
+MAZE: "mazes-52", random
+GEOMETRY:randomx,randomy
+MAP
+ GGGGGGGGGGGGGGGG 
+ G..............G 
+.G..............G.
+ G..............G 
+ GGGGGGGGGGGGGGGG 
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+MAZEWALK:(00,02),west
+MAZEWALK:(17,02),east
+
+MAZE: "mazes-53", random
+GEOMETRY:randomx,randomy
+MAP
+ JggJggJggJggJggJggJggJggJgg 
+ ggJggJggJggJggJggJggJggJggJ 
+ gJggJggJggJggJggJggJggJggJg 
+ JggJggJggJggJggJggJggJggJgg 
+.ggJggJggJggJggJggJggJggJggJ.
+ gJggJggJggJggJggJggJggJggJg 
+ JggJggJggJggJggJggJggJggJgg 
+ ggJggJggJggJggJggJggJggJggJ 
+ gJggJggJggJggJggJggJggJggJg 
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+MAZEWALK:(00,04),west
+MAZEWALK:(28,04),east
+
+MAZE: "mazes-54", random
+GEOMETRY:randomx,randomy
+MAP
+    .    
+   ...   
+  .....  
+....t....
+  .....  
+   ...   
+    .    
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+MAZEWALK:(00,03),west
+MAZEWALK:(08,03),east
+
+MAZE: "mazes-55" , random
+GEOMETRY:center,center
+MAP
+------------
+|..........|
+|..........|
+B....cc....B
+|..........|
+|..........|
+------------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(01,01,10,05),lit,"randomroom",filled,true
+
+MAZEWALK:(00,03),west
+MAZEWALK:(11,03),east
+
+MAZE: "mazes-56" , random
+GEOMETRY:center,center
+MAP
+               .               
+ ............................. 
+ .                           . 
+ .                           . 
+ .                           . 
+ .                           . 
+..                           ..
+ .                           . 
+ .                           . 
+ .                           . 
+ .                           . 
+ ............................. 
+               .               
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+MAZEWALK:(00,06),west
+MAZEWALK:(30,06),east
+MAZEWALK:(15,00),north
+MAZEWALK:(15,12),south
+
+MAZE: "mazes-56" , random
+GEOMETRY:center,center
+MAP
+               .               
+ ............................. 
+ .             S             . 
+ . ......................... . 
+ . ......................... . 
+ . ......................... . 
+..S.........................S..
+ . ......................... . 
+ . ......................... . 
+ . ......................... . 
+ .             S             . 
+ ............................. 
+               .               
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+#
+REGION:(03,03,27,09),lit,"randomroom",filled,true
+
+MAZEWALK:(00,06),west
+MAZEWALK:(30,06),east
+MAZEWALK:(15,00),north
+MAZEWALK:(15,12),south
+
+MAZE: "mazes-57" , random
+GEOMETRY:center,center
+MAP
+               .               
+ ............................. 
+ .             S             . 
+ . ...........B.B........... . 
+ . ...........B.B........... . 
+ . ...........B.B........... . 
+..S...........B.B...........S..
+ . ...........B.B........... . 
+ . ...........B.B........... . 
+ . ...........B.B........... . 
+ .             S             . 
+ ............................. 
+               .               
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+#
+REGION:(03,03,13,09),lit,"randomroom",filled,true
+REGION:(17,03,27,09),lit,"randomroom",filled,true
+
+MAZEWALK:(00,06),west
+MAZEWALK:(30,06),east
+MAZEWALK:(15,00),north
+MAZEWALK:(15,12),south
+
+MAZE: "mazes-58" , random
+GEOMETRY:center,center
+MAP
+ . . . 
+.......
+ . . . 
+.......
+ . . . 
+.......
+ . . . 
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+MAZEWALK:(00,03),west
+MAZEWALK:(06,03),east
+MAZEWALK:(03,00),north
+MAZEWALK:(03,06),south
+
+MAZE: "mazes-59" , random
+GEOMETRY:center,center
+MAP
+ . . . . . 
+...........
+ . . . . . 
+...........
+ . . . . . 
+...........
+ . . . . . 
+...........
+ . . . . . 
+...........
+ . . . . . 
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+MAZEWALK:(00,05),west
+MAZEWALK:(10,05),east
+MAZEWALK:(05,00),north
+MAZEWALK:(05,10),south
+
+MAZE: "mazes-60" , random
+GEOMETRY:center,center
+MAP
+ . . . . . 
+...........
+ .       . 
+.. ..... ..
+ . ..... . 
+.. ..... ..
+ . ..... . 
+.. ..... ..
+ .       . 
+...........
+ . . . . . 
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+REGION:(03,03,07,07),lit,"randomroom",filled,true
+
+MAZEWALK:(00,05),west
+MAZEWALK:(10,05),east
+MAZEWALK:(05,00),north
+MAZEWALK:(05,10),south
+
+MAZE: "mazes-61" , random
+GEOMETRY:center,center
+MAP
+ . . . . . 
+...........
+ .       . 
+.. ..... ..
+ . ..... . 
+.. ..... ..
+ . ..... . 
+.. ..... ..
+ .       . 
+...........
+ . . . . . 
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+REGION:(03,03,07,07),lit,"ordinary",filled,true
+
+ALTAR:(05,05),align[0],altar
+
+MAZEWALK:(00,05),west
+MAZEWALK:(10,05),east
+MAZEWALK:(05,00),north
+MAZEWALK:(05,10),south
+
+MAZE: "mazes-62" , random
+GEOMETRY:center,center
+MAP
+ . . . . . . . . 
+.................
+ .             . 
+.. ........... ..
+ . ........... . 
+.. ...........+..
+ . ........... . 
+.. ........... ..
+ .             . 
+.................
+ . . . . . . . . 
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+REGION:(03,03,13,07),lit,"random shop"
+
+DOOR:closed,(14,05)
+
+MAZEWALK:(00,05),west
+MAZEWALK:(16,05),east
+MAZEWALK:(09,00),north
+MAZEWALK:(09,10),south
+
+MAZE: "mazes-63" , random
+GEOMETRY:center,center
+MAP
+.          .
+B          B
+.          .
+.          .
+.          .
+.          .
+.          .
+.          .
+.          .
+.          .
+B          B
+.          .
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(00,02,00,09),lit,"randomroom",filled,true
+REGION:(11,02,11,09),lit,"randomroom",filled,true
+
+MAZEWALK:(00,00),north
+MAZEWALK:(11,00),north
+MAZEWALK:(00,11),south
+MAZEWALK:(11,11),south
+
+MAZE: "mazes-64" , random
+GEOMETRY:center,center
+MAP
+.          .
+B          B
+. ........ .
+. .      . .
+. . .... . .
+. . .  . . .
+. . .  . . .
+. . .... . .
+. .      . .
+. ........ .
+B          B
+.          .
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(00,02,00,09),lit,"ordinary",filled,true
+REGION:(11,02,11,09),lit,"ordinary",filled,true
+
+MAZEWALK:(00,00),north
+MAZEWALK:(11,00),north
+MAZEWALK:(00,11),south
+MAZEWALK:(11,11),south
+
+MAZE: "mazes-65" , random
+GEOMETRY:center,center
+MAP
+.          .
+B          B
+. ........ .
+. .      . .
+. . .... . .
+. . .{{. . .
+. . .{{. . .
+. . .... . .
+. .      . .
+. ........ .
+B          B
+.          .
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+REGION:(00,02,00,09),lit,"ordinary",filled,true
+REGION:(11,02,11,09),lit,"ordinary",filled,true
+
+MAZEWALK:(00,00),north
+MAZEWALK:(11,00),north
+MAZEWALK:(00,11),south
+MAZEWALK:(11,11),south
+
+MAZE: "mazes-66", random
+GEOMETRY:randomx,randomy
+MAP
+
+}}}
+}K}
+}}}
+
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+MAZEWALK:(00,02),west
+MAZEWALK:(02,02),east
+
+MAZE: "mazes-67" , random
+GEOMETRY:center,center
+MAP
+         .       
+ ............... 
+ .LLLLLLLLLLLLL. 
+ .L...........L. 
+ .L...........L. 
+..L...........L..
+ .L...........L. 
+ .L...........L. 
+ .LLLLLLLLLLLLL. 
+ ............... 
+         .       
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+
+REGION:(03,03,13,07),lit,"ordinary",filled,true
+
+MAZEWALK:(00,05),west
+MAZEWALK:(16,05),east
+MAZEWALK:(09,00),north
+MAZEWALK:(09,10),south
+
+MAZE: "mazes-68" , random
+GEOMETRY:randomx,randomy
+MAP
+----------
+|F.F.F.F.|
+|.F.F.F.F|
+|F.F.F.F.|
+B.F.F.F.FB
+|F.F.F.F.|
+|.F.F.F.F|
+|F.F.F.F.|
+|.F.F.F.F|
+----------
+ENDMAP
+#
+STAIR:levregion(01,00,79,20),(0,0,0,0),up
+STAIR:levregion(01,00,79,20),(0,0,0,0),down
+#
+
+MAZEWALK:(00,04),west
+MAZEWALK:(09,04),east
+
+# "LabyrNth" - the final maze level before the Castle, version 2
+MAZE:"mazes-69",'-'
+FLAGS:nommap
+GEOMETRY:center,bottom
+# The "wasted" row and column of walls at x=0 and y=0 are necessary due to
+# MAZEWALK's implementation details (junction coordinates must be even).
+#         1         2         3         4         5         6         7
+#123456789012345678901234567890123456789012345678901234567890123456789012345
+MAP
+----------------------------------------------------------------------------
+|---------------------------------------------------------------------------
+|| | . | | | | | | | | | | | | | | | | | | | | | | | | | | | | . . | | | | |
+|-----------------------------c-------------.----------------|.T.T.|--------
+|| | | | | | | | . | | | | | | | | | | | | . U | | | | | | | | ... | | | | |
+|-------------------------.-----------------.----------------|.T.T.|--------
+|| | | | | | | | | . | | | | | | | | | | | | | | | | | | | | | . . | | | | |
+|-----------.-----------------------.---------------------------------------
+|| | | | | | | | | | | | | | | | | |.| | | | | | | | | | | | | | | | | | | |
+|-.-------------------m-------------.---------------..a---------------------
+|| | | |.K.| | | | | | | | | | | ....... | | | | | | | | | | | | | | | | | |
+|-.-------------------m-------------.---------------------------------------
+|| | | | | | | | | | | | | | | | | |.| | | | | | | | | | | | | | | | | | | |
+|-----------.-----------------------.---------------------------------------
+|| | | | | | | | | . | | | | | | | | | | | | | | | | | | | . | | | | | | | |
+|-------------------------.-----------------.------------|...|--------------
+|| | | | | | | | { | | | | | | | | | | | | . . | | | | | | . | | | | | | | |
+|-----------------------------.-------------w----------|..LLL|------------}-
+|| | Z | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | } |
+----------------------------------------------------------------------------
+ENDMAP
+#RANDOM_PLACES
+NON_DIGGABLE:(31,07,41,13)
+FOUNTAIN:random
+FOUNTAIN:random
+REGION:(01,01,75,19),lit,"ordinary"
+MAZEWALK:(10,10),east
+#WALLIFY
+STAIR:(08,10),up
+STAIR:(64,04),down
+OBJECT:random,random,(36,10)
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+OBJECT:'`',"boulder",random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+#sorry Chris, but this level can appear as early as dlvl2 in slex, which means no minotaur
+MONSTER:'H',random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+MONSTER:random,random,random
+
+

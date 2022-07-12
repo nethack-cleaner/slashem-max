@@ -1,0 +1,23 @@
+language: c
+sudo: false
+script: make -f sys/unix/GNUmakefile install
+notifications:
+  irc:
+    channels:
+        - "irc.libera.chat#slashemextended"
+        - "irc.libera.chat#em.slashem.me"
+    on_success: always
+    on_failure: always
+    skip_join: false
+    template:
+        - "%{commit_subject} (%{result} %{branch} #%{build_number}) %{build_url} Diff: %{compare_url}"
+
+matrix:
+  include:
+    - os: linux
+      compiler: gcc
+    - os: linux
+      compiler: clang
+    - os: osx
+      compiler: clang
+      osx_image: xcode8.0

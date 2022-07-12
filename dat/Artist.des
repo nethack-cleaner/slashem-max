@@ -1,0 +1,439 @@
+#	SCCS Id: @(#)Elf.des	3.2	91/12/24
+#	Copyright (c) 1989 by Jean-Christophe Collet
+#	Copyright (c) 1991 by M. Stephenson
+# NetHack may be freely redistributed.  See license for details.
+#
+#	The "start" level for the quest.
+#
+#	Here you meet your (besieged) class leader, Earendil/Elwing
+#	and receive your quest assignment.
+#
+MAZE: "Art-strt",' '
+FLAGS: noteleport,hardfloor
+GEOMETRY:center,center
+MAP
+FFFFFFFFFFFFFFFFFFFFFFFFLLLLLLLLLLLLCCCCCLLCCC}}}}CCLCCCCLLLLLLFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFLLLLLLLLLLLLCCCCLLLLCC}........CLLCCCCCLLLLFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFLLLLLLLLLLCCCCCCLCCCCCCCC}.......}CCCLLLLLCCLLLLFFFFFFFFF
+FFFFFFFFFFFFFFLLLLLLLLLCCCCCCCCLLCC....................CCC}.CLCLLLLFFFFFFFF
+FFFFFFFFFFLLLLLLLLCCCCCCCCCCLLLLCCC}........................CLCCLLLLFFFFFFF
+FFFFFFLLLLLLLLLCCLCLLLLLLLLLCCCCC..........................}CCLCCLLLLFFFFFF
+FFFLLLLLLLLLCCCCLC}}CCCC.}CCCCCC..............................CCCLLLLFFFFFF
+FLLLLLLLLCCCCCLLCCC}.........}}..............................CCLCLLLLLFFFFF
+LLLLLLCCCCCLLLCCCC...........................................CLCCLLLLLFFFFF
+LCCCCLLLLLCCCCC.............................................CCLCCLLLLLFFFFF
+C.........................................................}CCLLCCLLLLLFFFFF
+LCCCCLLLLLCCCCC.............................................CCLCCLLLLLFFFFF
+LLLLLLCCCCCLLLCCCC...........................................CLCCLLLLLFFFFF
+FLLLLLLLLCCCCCLLCCC}.........}}..............................CCLCLLLLLFFFFF
+FFFLLLLLLLLLCCCCLC}}CCCC.}CCCCCC..............................CCCLLLLFFFFFF
+FFFFFFLLLLLLLLLCCLCLLLLLLLLLCCCCC..........................}CCLCCLLLLFFFFFF
+FFFFFFFFFFLLLLLLLLCCCCCCCCCCLLLLCCC}........................CLCCLLLLFFFFFFF
+FFFFFFFFFFFFFFLLLLLLLLLCCCCCCCCLLCC....................CCC}.CLCLLLLFFFFFFFF
+FFFFFFFFFFFFFFFFFFLLLLLLLLLLCCCCCCLCCCCCCCC}.......}CCCLLLLLCCLLLLFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFLLLLLLLLLLLLCCCCLLLLCC}........CLLCCCCCLLLLFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFLLLLLLLLLLLLCCCCCLLCCC}}}}CCLCCCCLLLLLLFFFFFFFFFFFF
+ENDMAP
+# Dungeon Description
+REGION:(00,00,73,16),lit,"ordinary"
+# Stairs
+STAIR:random,down
+# Portal arrival point
+#BRANCH:(00,60,00,14),(0,0,0,0)
+
+# Earendil/Elwing
+MONSTER:'@',"Paintmaster",random
+# The treasure of Earendil/Elwing
+OBJECT:'(',"chest",random
+# elf guards for the audience chamber
+MONSTER:'@',"guide",random
+MONSTER:'@',"guide",random
+MONSTER:'@',"guide",random
+MONSTER:'@',"guide",random
+MONSTER:'@',"guide",random
+MONSTER:'@',"guide",random
+MONSTER:'@',"guide",random
+MONSTER:'@',"guide",random
+
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+
+# Monsters on siege duty.
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+
+
+#
+#	The "locate" level for the quest.
+#
+#	Here you have to infiltrate the Goblins' Cave to go
+#	further towards your assigned quest.
+#
+
+MAZE: "Art-loca",' '
+FLAGS: hardfloor
+GEOMETRY:center,center
+MAP
+---------------------------------------------------------------------------
+|.eL..L.CT.C.TI..}..eL}eL.}Ce.T.CT..CT.Le}LC}CeF}C.L.CeLTe.TC..L}.CL.}.C.}|
+|I.eTFL.IFeTI.CeTI.F.eTI.eFeF.IF.eIF...FL..FL.e.TFLeTILFe.FI.eT.e.TFeTLF..|
+|}IT.F.I.CeI.TCFI.Te.F..LFI..FC}LI.FTL.I.FT.TI.CLF.T.eFeCITCI.eTLFCI.eTFL}|
+|}e.}L.TITTI.}..FCCFLCC.LC.CLF.F...TFIL..Fe..Te}I.eI}e..CLI.TF}.L..F...e}e|
+|TI.C.eFLFeFFeF.eeF.}FL.F.LF.eFFeeFeTFFFCFeFC..F.F.}}C}.I.TeTI.LT}C.e.}}CL|
+|FCITI.eFC..eFLeFT.F}I.C}I..F}.F}}}.eIL}.F..eLT}ee.}Ie.C}.}e..}e.e}CLCe}.e|
+|LITF.C.FeT}IFeC}.eFFLF}..eF}CLIe.TT}I.Ie..FI..eLeFFLF.F}.}L.}eCeTFeT..e}}|
+|FTI.LT.IF.e.eCL.eT.}LT}..}.I}eTFLLFLCL..FLFeeTIC}TTC}}}.eCL.e.e.F.FL}.Lee|
+|}C.}e}.T}I.IFLFC.eLFCLT.eF.C.eI.F...eF.eFCLe.CL.eC}.eFeC.F}eCL.FL.eC}.CLL|
+|FITF}F.C}.e.FC}F.IF}.e..FC}.eF.eFIeT.e.F.eFLC}.eFL.eF.eFFCe.FFC.FCLLC.F.}|
+|}.CL}IeLTI.TTI..I.eF...F.FF..FTeTII..F}CFCL.L.}.eCL..eCeF..FTF.CTF}C.}}.C|
+|}Fe.}}.CLe}.}..ITF...eFL}F.F.eFFLe.C}FCLeFCLTFLCII.FLC..F.FL..TC}LFCF.eTL|
+|..CL.eF}.F.T.e}.eI}..}ILI.T}LF.eF.F}F.e.CL.e}.}CL.ee}C.eeTTTeC}T..C}.e.T}|
+|F..IT...I..eeTI}.eIT}.}}.eI.}CI..}I.CL}FL.Ce}.F.CLF.FLFC}}.eFI.T}.}.eT}..|
+|C}.eI}.TI.TCL.CL.F}C}.eL.}}eL}..eL}.eF}.eF.eFLLFCLF}.eL.}.eCeeT.}}I.ILF.L|
+|}C.T}.TTII.FF.L}.eF}.eF}.eF}C.FeC}}.LC.TI.eTI.C}TTII}}e}.eCL}.eLFe.}}FF.F|
+---------------------------------------------------------------------------
+ENDMAP
+REGION:(01,01,73,16),lit,"ordinary"
+# Stairs
+STAIR:random,up
+STAIR:random,down
+# Non diggable walls
+NON_DIGGABLE:(00,00,74,17)
+
+# Objects
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+# Random traps
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+# Random monsters.
+
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"critic", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+MONSTER: '@',"vandal", random,hostile
+
+#
+#	The "goal" level for the quest.
+#
+#	Here you meet The Goblin King your nemesis monster.  You have to
+#	defeat The Goblin King in combat to gain the artifact you have
+#	been assigned to retrieve.
+#
+
+MAZE: "Art-goal", ' '
+GEOMETRY:center,center
+MAP
+...........................................................................
+...---...---...---...---...---...---...---...---...---...---...---...---...
+...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...
+...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...
+...........................................................................
+...........................................................................
+...........................T...............................................
+...........................................................................
+............................................................T..............
+......T....................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+...........................................................................
+.....................T..................................T..................
+...........................................................................
+...........................................................................
+...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...-+-...
+...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...|.|...
+...---...---...---...---...---...---...---...---...---...---...---...---...
+...........................................................................
+ENDMAP
+# Dungeon Description
+REGION:(01,01,73,16),random,"ordinary"
+# Stairs
+STAIR:random,up
+# Non diggable walls
+NON_DIGGABLE:(00,00,74,17)
+# Objects
+OBJECT:'_',"rotating chain",(37,10),blessed,+3,"Mirage Tail"
+OBJECT:'(',"chest",(37,10)
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+OBJECT:random,random,random
+# Random traps
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+TRAP:random,random
+# doors
+DOOR:locked,(04,03)
+DOOR:locked,(10,03)
+DOOR:locked,(16,03)
+DOOR:locked,(22,03)
+DOOR:locked,(28,03)
+DOOR:locked,(34,03)
+DOOR:locked,(40,03)
+DOOR:locked,(46,03)
+DOOR:locked,(52,03)
+DOOR:locked,(58,03)
+DOOR:locked,(64,03)
+DOOR:locked,(70,03)
+DOOR:locked,(04,17)
+DOOR:locked,(10,17)
+DOOR:locked,(16,17)
+DOOR:locked,(22,17)
+DOOR:locked,(28,17)
+DOOR:locked,(34,17)
+DOOR:locked,(40,17)
+DOOR:locked,(46,17)
+DOOR:locked,(52,17)
+DOOR:locked,(58,17)
+DOOR:locked,(64,17)
+DOOR:locked,(70,17)
+# Random monsters.
+MONSTER:'@',"Bragging Vandal",(37,10),hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"vandal",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:'@',"critic",random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+MONSTER:random,random,random,hostile
+
+#
+#	The "fill" levels for the quest.
+#
+#	These levels are used to fill out any levels not occupied by specific
+#	levels as defined above. "filla" is the upper filler, between the
+#	start and locate levels, and "fillb" the lower between the locate
+#	and goal levels.
+#
+
+MAZE: "Art-fila" , ' '
+GEOMETRY:center,center
+MAP
+.......................................................................
+.......................................................................
+.......................................................................
+.......................................................................
+...C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C...
+...CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC...
+...C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C...
+...CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC...
+...C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C...
+...CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC...
+...C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C...
+...CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC...
+...C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C...
+...CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC...
+...C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C C...
+.......................................................................
+.......................................................................
+.......................................................................
+.......................................................................
+ENDMAP
+
+REGION:(00,00,70,18),lit,"ordinary"
+
+MAZEWALK:(4, 2), south
+#
+STAIR: random, up
+STAIR: random, down
+#
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+#
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+#
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+
+MAZE: "Art-filb" , ' '
+GEOMETRY:center,center
+MAP
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}................}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}}}}................................}}}}}}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}............................................}}}}}}}}}}}}}}}
+}}}}}}}}}}......................................................}}}}}}}}}}
+}}}}}}}............................................................}}}}}}}
+}}}}}.......................LLLLLLLLLLLLLLLLLL.......................}}}}}
+}}}....................LLLLLLLLLLLLLLLLLLLLLLLLLLL.....................}}}
+}....................LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL....................}
+}....................LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL....................}
+}....................LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL....................}
+}}}....................LLLLLLLLLLLLLLLLLLLLLLLLLLL.....................}}}
+}}}}}.......................LLLLLLLLLLLLLLLLLL.......................}}}}}
+}}}}}}}............................................................}}}}}}}
+}}}}}}}}}}......................................................}}}}}}}}}}
+}}}}}}}}}}}}}}}............................................}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}}}}................................}}}}}}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}................}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+ENDMAP
+
+REGION:(00,00,73,18),unlit,"ordinary"
+REGION:(26,04,47,14),lit,"ordinary"
+REGION:(21,05,51,13),lit,"ordinary"
+REGION:(19,06,54,12),lit,"ordinary"
+
+#
+STAIR: random, up
+STAIR: random, down
+#
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+OBJECT: random, random, random
+#
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+TRAP: random, random
+#
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
+MONSTER: random,random, random, hostile
